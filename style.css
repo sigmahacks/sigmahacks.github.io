@@ -214,14 +214,15 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/sigmahackslanding2%20copy.png");
+	background-image: url("assets/images/sigmahackstransparent.png");
 	display: inline;
 	float: left;
 	width: 100%;
-	background-position: center center;
+	background-position: center top;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	background-size: cover;
+	background-size: 700px 700px;
+    background-repeat: no-repeat;
 }
 
 .mu-hero-overlay {
