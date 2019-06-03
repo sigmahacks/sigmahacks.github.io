@@ -391,7 +391,7 @@ button:focus {
 
 
 #mu-about {
-	background-color: #383938;
+	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -558,7 +558,7 @@ button:focus {
 /*--------------------*/
 
 #mu-schedule {
-	background-color: #02a8d8;
+	background: linear-gradient(to top, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -567,7 +567,7 @@ button:focus {
 .mu-schedule-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -710,7 +710,7 @@ button:focus {
 
 
 #mu-speakers {
-	background-color: #383938;
+	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1050,7 +1050,7 @@ button:focus {
 /*--------------------*/
 
 #mu-sponsors {
-	background-color: #fff;
+	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1085,7 +1085,7 @@ button:focus {
 /*--------------------*/
 
 #mu-faq {
-	background-color: #f8f8f8;
+	background: linear-gradient(to top, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	position: relative;
@@ -1150,7 +1150,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-color: #f8f8f8;
+	background: linear-gradient(to top, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1278,7 +1278,7 @@ button:focus {
 
 
 #mu-footer {
-	background-color: #f8f8f8;
+	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
