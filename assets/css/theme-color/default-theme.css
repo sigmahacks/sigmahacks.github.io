@@ -57,13 +57,14 @@ Author URI : http://www.markups.io/
 
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-	border: 1px solid #02a8d8;
-	color: #02a8d8;
+	border: 1px solid #c9cccc;
+	color: #c9cccc;
 }
 
 .mu-contact-form .form-control:focus,
 .mu-schedule-menu li a {
-	border: 1px solid #02a8d8;    
+	border: 1px solid #383938;
+    color: #c9cccc;
 } 
 
 .mu-send-msg-btn,

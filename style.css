@@ -227,7 +227,7 @@ button:focus {
 .mu-hero-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.8;
+	opacity: 0.9;
 	width: 100%;
 }
 
@@ -413,7 +413,7 @@ button:focus {
 }
 
 .mu-title {
-	color: #1c1b1b;
+	color: #383938;
 	margin-bottom: 15px;
 	padding: 0;
 	z-index: 10;
@@ -558,7 +558,7 @@ button:focus {
 /*--------------------*/
 
 #mu-schedule {
-	background-color: #c9cccc;
+	background-color: #02a8d8;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -602,7 +602,7 @@ button:focus {
 .mu-schedule-menu li.active a,
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
-	color: #fff;
+	color: #383939;
 }
 
 .mu-schedule-content{
@@ -615,7 +615,7 @@ button:focus {
 	width: 2px;
 	margin: 0 auto;
 	padding-top: 50px;
-	background-color: #ddd;
+	background-color: #c9cccc;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
