@@ -568,14 +568,14 @@ button:focus {
 .mu-schedule-area {
 	display: inline;
 	float: left;
-	padding: 50px 0;
+	padding: 0px 0px;
 	width: 100%;
 }
 
 .mu-schedule-content-area  {
 	display: inline;
 	float: left;
-	margin-top: 50px;
+	margin-top: 10px;
 	width: 100%;
 }
 
@@ -1096,7 +1096,7 @@ button:focus {
 .mu-faq-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;
+	padding: 0px 0px;
 	width: 100%;
 }
 
@@ -1106,7 +1106,7 @@ button:focus {
 	width: 100%;
 	text-align: center;
 	padding: 0 150px;
-	margin-top: 50px;
+	margin-top: 25px;
 }
 
 .mu-faq-content .panel-default {
