@@ -1162,7 +1162,7 @@ button:focus {
 .mu-contact-area {
 	display: inline;
 	float: left;
-	padding: 100px 0 50px;
+	padding: 20px 0 50px;
 	width: 100%;
 }
 
@@ -1281,7 +1281,7 @@ button:focus {
 
 
 #mu-footer {
-	background: linear-gradient(to top, #c9cccc, #02a8d8);
+	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
