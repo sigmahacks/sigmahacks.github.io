@@ -787,6 +787,7 @@ button:focus {
 /*--------------------*/
 
 #mu-venue {
+    background: linear-gradient(to top, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1053,7 +1054,7 @@ button:focus {
 /*--------------------*/
 
 #mu-sponsors {
-	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
+	background: linear-gradient(to top, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1088,7 +1089,7 @@ button:focus {
 /*--------------------*/
 
 #mu-faq {
-	background: linear-gradient(to top, #c9cccc, #02a8d8);
+	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	position: relative;
@@ -1098,7 +1099,7 @@ button:focus {
 .mu-faq-area {
 	display: inline;
 	float: left;
-	padding: 0px 0px;
+	padding: 35px 0px;
 	width: 100%;
 }
 
@@ -1153,7 +1154,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background: linear-gradient(to top, #c9cccc, #02a8d8);
+	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1281,7 +1282,7 @@ button:focus {
 
 
 #mu-footer {
-	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
+	background: linear-gradient(to top, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
