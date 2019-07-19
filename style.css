@@ -1089,7 +1089,7 @@ button:focus {
 /*--------------------*/
 
 #mu-faq {
-	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
+	background: linear-gradient(to top, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	position: relative;
