@@ -221,14 +221,14 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
+	background-image: url("assets/images/Untitled%20design%20(2).png");
 	display: inline;
 	float: left;
 	width: 100%;
 	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	background-size: cover;
+	background-size: fill;
 }
 
 .mu-hero-overlay {
@@ -409,7 +409,7 @@ button:focus {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -576,7 +576,7 @@ button:focus {
 .mu-schedule-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -728,7 +728,7 @@ button:focus {
 .mu-speakers-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -1104,7 +1104,7 @@ button:focus {
 .mu-faq-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -1159,7 +1159,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-color: #f8f8f8;
+	background-color: #ffffff;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1168,7 +1168,7 @@ button:focus {
 .mu-contact-area {
 	display: inline;
 	float: left;
-	padding: 100px 0 50px;
+	padding: 70px 0 50px;
 	width: 100%;
 }
 
@@ -1183,7 +1183,7 @@ button:focus {
 .mu-contact-content{
 	display: inline;
 	float: left;
-	margin-top: 50px;
+	margin-top: 0px;
 	padding: 0 20%;
 	width: 100%;
 }
@@ -1575,20 +1575,22 @@ button:focus {
 	}
 
 	.mu-logo {
-		margin-bottom: 10px;
+		margin-top: 10px;
 		font-size: 30px;
 	}
 
 	.mu-hero-featured-area {
-		padding: 60px 0 60px;
+		padding: 0px 0 0px;
 	}
 
 	.mu-hero-featured-content {
-		margin-top: 20px;
+		margin-top: 0px;
+        margin-bottom: 100px;
 	}
 
 	.mu-hero-featured-content h1 {
 		font-size: 25px;
+        margin-bottom: 50px;
 	}
 
 	.mu-hero-featured-content h2 {
@@ -1597,10 +1599,11 @@ button:focus {
 
 	.mu-event-date-line {
 		font-size: 12px;
+        margin-top: 20px;
 	}
 
 	.mu-event-counter-area {
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	
 	.mu-event-counter-block span {
