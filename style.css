@@ -1,4 +1,11 @@
 
+/*
+Template Name: Eventoz	
+Author: MarkUps
+Author URI: http://www.markups.io/
+Version: 1.0
+*/
+
 
 /* Table of Content
 ==================================================
@@ -31,9 +38,9 @@ html {
 
 body {
 	font-family: 'Dosis';
-	font-size: 17px;
-	letter-spacing: 0.8px;
-	line-height: 1.2;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
 	color: #1c1b1b;
 }
 
@@ -189,17 +196,15 @@ button:focus {
 
 .mu-send-msg-btn {
 	color: #555;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	text-align: center;
 	padding: 14px 24px;
 	margin-top: 10px;
-    align-content: center;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	width: 250px;
-    height: 45px;
 	color: #fff;
 	border-radius: 5px;
 }
@@ -216,21 +221,20 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/sigmahackstransparent.png");
+	background-image: url("assets/images/head-featured-bg.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
-	background-position: center top;
+	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	background-size: 700px 700px;
-    background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .mu-hero-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.9;
+	opacity: 0.94;
 	width: 100%;
 }
 
@@ -242,12 +246,14 @@ button:focus {
 }
 
 .mu-logo {
-	font-size: 55px;
+	font-size: 35px;
 	font-family: 'Dosis';
 	display: inline-block;
 	font-weight: 600;
-	background: #f8f8f8;
+    color: #02a8d8;
+	background: #fff;
 	padding: 5px 20px;
+	margin-bottom: 30px;
 }
 
 
@@ -299,18 +305,17 @@ button:focus {
 
 .mu-hero-featured-content h2 {
 	color: #fff;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 300;
 }
 
 .mu-event-date-line {
 	background-color: #fff;
 	color: #333;
-	padding: 15px 20px;
+	padding: 5px 10px;
 	display: inline-block;
-	margin-top: 0px;
-    margin-bottom: 0px;
-	font-weight: 550;
+	margin-top: 10px;
+	font-weight: 600;
 }
 
 .mu-event-counter-area {
@@ -322,8 +327,8 @@ button:focus {
 
 #mu-event-counter{
 	display: inline;
-	float: center;
-	width: 150%;
+	float: left;
+	width: 100%;
 	text-align: center;
 }
 
@@ -356,6 +361,7 @@ button:focus {
 	background-color: #fff;
 	border-color: #e7e7e7;
 	padding: 5px 0;
+    color: #02a8d8;
 }
 
 .mu-navbar {
@@ -394,7 +400,7 @@ button:focus {
 
 
 #mu-about {
-	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -416,7 +422,7 @@ button:focus {
 }
 
 .mu-title {
-	color: #383938;
+	color: #1c1b1b;
 	margin-bottom: 15px;
 	padding: 0;
 	z-index: 10;
@@ -442,7 +448,7 @@ button:focus {
 /* VIDEO */
 /*--------------------*/
 
-/*
+
 #mu-video {
 	background-image: url("assets/images/about-video-bg.jpg");
 	background-attachment: fixed;
@@ -554,14 +560,14 @@ button:focus {
 .mu-video-iframe-area iframe {
 
 }
-*/
+
 
 /*--------------------*/
 /* EVENT SCHEDULE */
 /*--------------------*/
 
 #mu-schedule {
-	background: linear-gradient(to top, #c9cccc, #02a8d8);
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -570,14 +576,14 @@ button:focus {
 .mu-schedule-area {
 	display: inline;
 	float: left;
-	padding: 0px 0px;
+	padding: 100px 0;
 	width: 100%;
 }
 
 .mu-schedule-content-area  {
 	display: inline;
 	float: left;
-	margin-top: 10px;
+	margin-top: 50px;
 	width: 100%;
 }
 
@@ -605,7 +611,7 @@ button:focus {
 .mu-schedule-menu li.active a,
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
-	color: #383939;
+	color: #fff;
 }
 
 .mu-schedule-content{
@@ -618,7 +624,7 @@ button:focus {
 	width: 2px;
 	margin: 0 auto;
 	padding-top: 50px;
-	background-color: #c9cccc;
+	background-color: #ddd;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
@@ -713,7 +719,7 @@ button:focus {
 
 
 #mu-speakers {
-	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -787,7 +793,6 @@ button:focus {
 /*--------------------*/
 
 #mu-venue {
-    background: linear-gradient(to top, #c9cccc, #02a8d8);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1054,7 +1059,7 @@ button:focus {
 /*--------------------*/
 
 #mu-sponsors {
-	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1089,7 +1094,7 @@ button:focus {
 /*--------------------*/
 
 #mu-faq {
-	background: linear-gradient(to top, #c9cccc, #02a8d8);
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	position: relative;
@@ -1099,7 +1104,7 @@ button:focus {
 .mu-faq-area {
 	display: inline;
 	float: left;
-	padding: 35px 0px;
+	padding: 150px 0;
 	width: 100%;
 }
 
@@ -1109,7 +1114,7 @@ button:focus {
 	width: 100%;
 	text-align: center;
 	padding: 0 150px;
-	margin-top: 25px;
+	margin-top: 50px;
 }
 
 .mu-faq-content .panel-default {
@@ -1154,7 +1159,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background: linear-gradient(to bottom, #c9cccc, #02a8d8);
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1163,7 +1168,7 @@ button:focus {
 .mu-contact-area {
 	display: inline;
 	float: left;
-	padding: 20px 0 50px;
+	padding: 100px 0 50px;
 	width: 100%;
 }
 
@@ -1282,7 +1287,7 @@ button:focus {
 
 
 #mu-footer {
-	background: linear-gradient(to top, #c9cccc, #02a8d8);
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1575,12 +1580,11 @@ button:focus {
 	}
 
 	.mu-hero-featured-area {
-		padding: 0px 0 0px;
+		padding: 60px 0 60px;
 	}
 
 	.mu-hero-featured-content {
 		margin-top: 20px;
-        margin-bottom: 20px;
 	}
 
 	.mu-hero-featured-content h1 {
@@ -1588,15 +1592,15 @@ button:focus {
 	}
 
 	.mu-hero-featured-content h2 {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.mu-event-date-line {
-		font-size: 15px;
+		font-size: 12px;
 	}
 
 	.mu-event-counter-area {
-		margin-top: 0px;
+		margin-top: 20px;
 	}
 	
 	.mu-event-counter-block span {
