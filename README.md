@@ -1,3 +1,1 @@
-# The official website of SigmaHacks I
-
-
+The official website of SigmaHacks I
