@@ -128,11 +128,9 @@ footer h3 {
 
 #schedule tbody {
 	display: block;
-	height: 75vh;
+	height: 55vh;
 	overflow-y: auto;
 	overflow-x: hidden;
-	min-width: 500px;
-    max-height: 440px;
 }
 
 #schedule thead {
@@ -144,9 +142,6 @@ footer h3 {
 	display: table;
 	width: 100%;
 	table-layout: fixed;
-	min-width: 400px;
-    min-height: 4px;
-    max-height: 10px;
     height: auto;
 }
 
