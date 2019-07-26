@@ -1,3 +1,3 @@
-# Spectra 2019
+# The official website of SigmaHacks I
 
- - 5/8/19 Pushed new website to production.
+
