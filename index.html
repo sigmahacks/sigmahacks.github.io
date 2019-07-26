@@ -1,936 +1,744 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>SigmaHacks</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="assets/images/sigmahackstransparent.png"/>
-    <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Slick slider -->
-    <link href="assets/css/slick.css" rel="stylesheet">
-    <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+<html>
 
-    <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Fonts -->
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="./assets/images/spectra/SigmaHacksLogoCroppedTransparent.png" />
+	<title>SigmaHacks</title>
+	<!-- BootStrap -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Open Sans for body font -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
-	<!-- Montserrat for title -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <!--Dosis -->
-    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
-    
- 
- 
-	
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-  	
-  	<!-- Start Header -->
-	<header id="mu-hero" class="" role="banner">
-		<!-- Start menu  -->
-		<nav class="navbar navbar-fixed-top navbar-default mu-navbar">
-		  	<div class="container">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-			      <!-- Logo -->
-			      <a class="navbar-brand" href="index.html">SIGMAHACKS</a>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.js"
+		integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
 
-			    </div>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77365611-1"></script>
+	<script type="text/javascript" src="./assets/js/facebooktracking.js"></script>
+	<!-- FB Pixel Tracking Code -->
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=612378962632992&ev=PageView&noscript=1" /></noscript>
+	<!-- End FB Code -->
+</head>
 
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      	<ul class="nav navbar-nav mu-menu navbar-right">
-			      		<li><a href="#mu-hero">Home</a></li>
-				        <li><a href="#mu-about">About</a></li>
-				        <li><a href="#mu-schedule">Schedule</a></li>
-			            <li><a href="#mu-speakers">Our Team</a></li>
-			            <li><a href="#mu-sponsors">Sponsors</a></li>
-                        <li><a href="#mu-faq">FAQs</a></li>
-			            <li><a href="#mu-contact">Contact</a></li>
-			      	</ul>
-			    </div><!-- /.navbar-collapse -->
-		  	</div><!-- /.container-fluid -->
-		</nav>
-		<!-- End menu -->
+<body>
+	<script>
+		fbq('track', 'ViewContent');
+	</script>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+			aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-		<div class="mu-hero-overlay">
-			<div class="container">
-				<div class="mu-hero-area">
+		<div class="collapse navbar-collapse" id="navbarToggler">
+			<ul class="navbar-nav d-flex justify-content-center container">
+				<li class="nav-item">
+					<a class="nav-link" data-scroll href="https://tinyurl.com/gotospectra3" id="navbarRegister">register</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-scroll href="#about">about</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-scroll href="#schedule">schedule</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-scroll href="#location">location</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-scroll href="#FAQ">faq's</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-scroll href="#team">team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-scroll href="#sponsor-logos">sponsors</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-					<!-- Start hero featured area -->
-					<div class="mu-hero-featured-area">
-						<!-- Start center Logo -->
-						<div class="mu-logo-area">
-							<!-- text based logo -->
-							<a class="mu-logo" href="#">SIGMAHACKS</a>
-							<!-- image based logo -->
-							 <!---<a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a> -->
-						</div>
-						<!-- End center Logo -->
+	<div class="container-fluid d-flex justify-content-center" id="main">
+		<div>
+			<img class="img-fluid mx-auto d-block" id="logo" src="./assets/images/SigmaHacksLogoCroppedTransparent.png" style="margin-top: -2em; margin-bottom: 1em"/>
+			<h3 class="text-center font">SIGMAHACKS I</h3>
+			<a href="https://sigmahacks.typeform.com/to/Rd6vn6" id="outerButton">
+				<div class="application-button text-center" id="innerButton">
+                    Register Now!
+				</div>
+			</a>
+		</div>
+	</div>
 
-						<div class="mu-hero-featured-content">
-							<h1>HELLO! WELCOME TO SIGMAHACKS!</h1>
-							<p class="mu-event-date-line"> </font>16 - 17 November, 2019. 42 Silicon Valley.</p>
+	<div class="container-fluid" id="email">
+		<div class="container basic-padding d-flex justify-content-center" style="padding-bottom: 0em">
+			<form action="https://sospectra.us12.list-manage.com/subscribe/post" method="POST" style="width: 24em;">
+				<input type="hidden" name="u" value="f0000ef55a22db2c251318957">
+				<input type="hidden" name="id" value="a7e5335ef7">
+				<input type="hidden" name="mc_signupsource" value="hosted">
+				<div class="input-group" id="about">
+					<!--<input type="email" name="MERGE0" id="MERGE0" class="form-control" placeholder="subscribe to get the latest updates" aria-label="email" aria-describedby="button-addon2">-->
+					<!--<div class="input-group-append">
+				    <button class="btn subscribe-button" type="submit" id="button-addon2">subscribe</button>
+				  </div>
+				</div> -->
+			</form>
+		</div>
+	</div>
 
-							<!--<div class="mu-event-counter-area">
-								<div id="mu-event-counter">
-									
-								</div>
-							</div>-->
+	<!-- Mission Statement -->
+	<div class="container-fluid" style="background-color: #F9F9F9;">
+		<div class="container" style="padding-bottom: 1em; padding-top: em; background-color: #F9F9F9;">
+			<div class="row">
+				<div class="col-lg">
+					<h3 class="font about-title">About Us</h3>
+					<div class="title-underline"></div>
+					<p class="font" style="font-size: 20px;">
+						Work with teams of up to 4 people to innovate, create, and implement ambitious new projects, and enjoy
+						delicious food, drink, and an all around top-notch hacker experience! Join hundreds of other high schoolers
+						on from across the Bay Area on November 16th to convert your ideas into reality, at SigmaHacks I.
+					</p>
+				</div>
+				<!--<div class="col-sm align-self-center">
+					<img src="./assets/images/spectra/pushing.png" class="img mx-auto d-block" style="max-width: 200px">
+				</div>-->
+			</div>
+		</div>
+	</div>
 
-						</div>
+	<!-- Schedule -->
+	<div class="container-fluid lightorange-color" style="padding-bottom: 0.5em">
+		<div class="container text-center justify-content-center">
+			<h1 class="section-title font" style="color: white;"> 2019 Schedule</h1>
+			<table class="table table-responsive" id="schedule">
+				<thead>
+					<tr>
+						<th>Time</th>
+						<th>Saturday</th>
+						<th>Time</th>
+						<th>Sunday</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!--<tr>
+			      <th scope="row">8:30AM</th>
+			      <td colspan="4" style="font-weight: bold;">Check-In and Breakfast</td>
+			    </tr> -->
+					<tr>
+						<th scope="row">8:30 AM</th>
+						<td>Check In</td>
+						<td style="font-weight: bold;">12:00 AM</td>
+						<td>Midnight Snack</td>
+					</tr>
+					<tr>
+						<th scope="row">9:30 AM</th>
+						<td>Opening Ceremony</td>
+						<td style="font-weight: bold;">7:00 AM</td>
+						<td onclick="showDescription('scratch')" class="schedule-link">Workshop #4</td>
+					</tr>
+					<tr>
+						<th scope="row">10:30 AM</th>
+						<td>Hacking Begins</td>
+						<td style="font-weight: bold;">8:00 AM</td>
+						<td>Breakfast</td>
+					</tr>
+					<tr>
+						<th scope="row">11:30 AM</th>
+						<td onclick="showDescription('sisu')" class="schedule-link">Workshop #1</td>
+						<td style="font-weight: bold;">9:00 AM</td>
+						<td>Project Submissions</td>
+					</tr>
+					<tr>
+						<th scope="row">12:45 AM</th>
+						<td>Lunch</td>
+						<td style="font-weight: bold;">9:45 AM</td>
+						<td>Preliminary Judging</td>
+					</tr>
+					<tr>
+						<th scope="row">2:00 PM</th>
+						<td onclick="showDescription('scratch')" class="schedule-link">Workshop #2</td>
+						<td style="font-weight: bold;">10:15 AM</td>
+						<td>Finalists Announced</td>
+					</tr>
+					<tr>
+						<th scope="row">5:00 PM</th>
+						<td>Boba</td>
+						<td style="font-weight: bold;">10:30 AM</td>
+						<td >2nd Judging Round</td>
+					</tr>
+					<tr>
+						<th scope="row">6:00 PM</th>
+						<td onclick="showDescription('scratch')" class="schedule-link">Workshop #3</td>
+						<td style="font-weight: bold;">11:30 AM</td>
+						<td >Awards & Closing Ceremony</td>
+					</tr>
+					<tr>
+						<th scope="row">7:45 PM</th>
+						<td>Dinner</td>
+						<td style="font-weight: bold;">1:00 PM
+						</td>
+						<td>Hackathon Ends
+						</td>
+					</tr>
+					<!--<tr>
+			      <th scope="row">2:00PM</th>
+			      <td></td>
+			      <td onclick="showDescription('mongodb')" class="schedule-link">Introduction to MongoDB - Hands-On Workshop (continued)</td>
+			      <td onclick="showDescription('react')" class="schedule-link">Learn web development by building a Pokedex (continued)</td>
+			      <td onclick="showDescription('scratch')" class="schedule-link">Build A Website From Scratch! (continued)</td>
+			      
+			    </tr>
+			    <tr>
+			      <th scope="row">2:30PM</th>
+			      <td></td>
+			      <td></td>
+			      <td onclick="showDescription('react')" class="schedule-link">Learn web development by building a Pokedex (continued)</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3:00PM</th>
+			      <td></td>
+			      <td onclick="showDescription('nlp')" class="schedule-link">Introduction to Natural Language Processing and Machine Learning in Python</td>
+			      <td onclick="showDescription('dom')" class="schedule-link">DOM manipulations using JavaScript</td>
+			      <td onclick="showDescription('jupyter')" class="schedule-link">Introduction to Data Wrangling with Jupyter Notebooks</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3:30PM</th>
+			      <td></td>
+			      <td onclick="showDescription('nlp')" class="schedule-link">Introduction to Natural Language Processing and Machine Learning in Python (continued)</td>
+			      <td onclick="showDescription('dom')" class="schedule-link">DOM manipulations using JavaScript (continued)</td>
+			      <td onclick="showDescription('jupyter')" class="schedule-link">Introduction to Data Wrangling with Jupyter Notebooks (continued)</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">4:00PM</th>
+			      <td></td>
+			     	<td>Facemasks/Meditation Session</td>
+			      <td></td>
+			      <td onclick="showDescription('game')" class="schedule-link">Game Changing Bonanza hosted by RingCentral</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">4:30PM</th>
+			     	<td>Boba Sponsored by ShareTea</td>
+			     	<td onclick="showDescription('design')" class="schedule-link">What is Design Thinking?</td>
+			     	<td onclick="showDescription('servicenow')" class="schedule-link">ServiceNow - Introduction to Enterprise Chatbot</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">5:00PM</th>
+			      <td></td>
+			     	<td onclick="showDescription('design')" class="schedule-link">What is Design Thinking?</td>
+			      <td onclick="showDescription('astrobiology')" class="schedule-link">Astrobiology and JavaScript</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">5:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">6:00PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">6:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">7:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Hacking Ends / Dinner - Chipotle</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">7:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">8:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Project Demos & Judging</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">8:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">9:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Closing Ceremony + Prizes</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">9:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">10:00PM</th>
+			      <td colspan="4"><b>Event Ends</b><br>(May end sooner or later)</td>
+			    </tr>-->
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="container-fluid lightorange-color">
+		<div class="container text-center justify-content-center" id="location">
+			<h1 class="section-title font" style="padding-bottom: 1em; color: white">Hosted at</h1>
+			<a href="https://www.42.us.org">
+				<img src="./assets/images/sponsors/42_siliconvalley_black.png"
+					style="width:300px; height: 110%; max-width: 110%;" />
+			</a>
+			<h3 class="section-title font" style="color: white">6600 Dumbarton Cir, Fremont, CA</h3>
+			<div id="map"></div>
+		</div>
+	</div>
+    <div class="cui-embed" data-cui-uid="Rd6vn6" data-cui-mode="pill" data-cui-pill-button-color="#383938"></div><script src="https://public-assets.typeform.com/confab/embed.js" async></script>
+
+	<div class="container-fluid lightorange-color" id="sponsor-logos">
+		<div class="container text-center">
+			<h1 class="section-title font text-center" style="color: white;">Sponsors</h1>
+			<div class="row justify-content-center sponsors-row">
+				<a class="sponsor-main" href="https://hackplus.io">
+					<img class="sponsor-main" src="./assets/images/sponsors/hackplusSH2.png" alt="makeschool">
+				</a>
+			</div>
+			<div class="row justify-content-center sponsors-row">
+                <a href="https://www.wolframalpha.com">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/wolframSH2.png" alt="sisu">
+				</a>
+                <a href="https://www.bugsee.com">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/bugseeSH.png" alt="braintree">
+				</a>
+                <a href="https://www.desmos.com">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/desmosSH.png" alt="venmo">
+				</a>
+				<a href="https://balsamiq.com">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/balsamiqSH.png" alt="servicenow">
+				</a>
+				
+				<!--<a href="https://www.mongodb.com/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/mongodb.svg" alt="mongodb">
+				</a>
+				<a href="https://www.twilio.com/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/twilio-logo-white.svg" alt="twilio">
+				</a>
+				<a href="https://www.ringcentral.com/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/ringcentral.svg" alt="ringcentral">
+				</a>
+			</div>
+			<div class="row justify-content-center sponsors-row">
+				 <img class="sponsor-logo-2" src="./assets/images/sponsors/facebook.svg"> 
+				<a href="https://www.pubnub.com/">
+					<img class="sponsor-logo-2" src="./assets/images/sponsors/pubnub.svg" alt="pubnub">
+				</a>
+				<a href="https://www.here.com/">
+					<img class="sponsor-logo-2" style="width: auto;" src="./assets/images/sponsors/here.svg" alt="here">
+				</a>
+			</div>
+			<div class="row justify-content-center sponsors-row">
+				<a href="https://girlswhocode.com/">
+					<img class="sponsor-logo-1" src="./assets/images/sponsors/GWC_logo.png" alt="gwc">
+				</a>
+				<a href="https://www.benefitcosmetics.com/">
+					<img class="sponsor-logo-1" src="./assets/images/sponsors/benefit.png" alt="benefit">
+				</a>
+				<a href="https://ripple.com/">
+					<img class="sponsor-logo-1" src="./assets/images/sponsors/ripple.svg" alt="ripple">
+				</a>
+			</div>
+			<div class="row justify-content-center sponsors-row">
+				<a href="https://eatbobos.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/bobos.png" alt="bobos">
+				</a>
+				<a href="https://www.fitbit.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/fitbit.png" alt="fitbit">
+				</a>
+				<a href="https://www.interviewcake.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/interviewcake.png" alt="interviewcake">
+				</a>
+				<a href="https://www.typeform.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/typeform.svg" alt="typeform">
+				</a>
+				<a href="https://stripe.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/stripe.svg" alt="stripe">
+				</a>
+				<a href="https://www.stickergiant.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/stickergiant.svg" alt="stickergiant">
+				</a>
+				<a href="http://www.1992sharetea.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/sharetea.png" alt="sharetea">
+				</a>
+				<a href="https://www.curryupnow.com/">
+					<img class="sponsor-logo-0" style="max-height: 65px; width: auto;"
+						src="./assets/images/sponsors/curryupnow.png" alt="curryupnow">
+				</a>
+				<a href="https://www.techtreeroot.org/">
+					<img class="sponsor-logo-0" style="max-height: 65px; width: auto;" src="./assets/images/sponsors/scotty.png"
+						alt="curryupnow">
+				</a> -->  
+			<div class="container-fluid lightorange-color">
+		<div class="container text-center" style="background-color: #02a8d8; padding: 1em 1em;">
+			<h1 class="section-title font" style="padding: 0;">Interested in Becoming a Sponsor?</h1>
+			<div style="margin-bottom: 2em;" >Check out our Sponsorship Prospectus or shoot us an email!</div>
+			<a href="mailto:sponsor@sigmahacks.org?Subject=Sponsoring%20SigmaHacks" class="application-button" rel="email">Email Us</a>
+            <a href="SigmaHacksProspectus.pdf" class="application-button" rel="email">Sponsorship Prospectus</a>
+		</div>
+	</div>
+			</div>
+		</div>
+	</div>
+	<!-- FAQ -->
+	<div class="container-fluid lightorange-color" id="FAQ">
+		<div class="container" style="background-color: #F9F9F9">
+			<h1 class="text-center font section-title">FAQ's</h1>
+			<div class="row row-padding">
+				<div class="col-sm">
+					<p class="faq-title">What is a hackathon?</p>
+					<div class="faq-description">
+						<p class="font" style="margin: 0">A hackathon is a weekend-long coding event where you turn your crazy ideas
+							into real-world projects. We provide food, swag, mentors, workshops, guest speakers, hardware, and so much
+							more! You do your hacking, and we will do the rest.
+						</p>
 					</div>
-					<!-- End hero featured area -->
+					<p class="faq-title">Who can attend?</p>
+					<div class="faq-description">
+						<p class="font">SigmaHacks is open to all high schoolers. If you have graduated from high school, you can
+							apply to be a mentor. Unfortunately, we are not accepting middle school participants at this time. </p>
+					</div>
+					<p class="faq-title">What if I do not know how to code?</p>
+					<div class="faq-description">
+						<p class="font" style="margin: 0">Not a problem at all! SigmaHacks is the ideal place to learn how to code,
+							and we will have plenty of mentors and workshops to help you along the way. </p>
+					</div>
+					<p class="faq-title">What if I do not have a team or idea?</p>
+					<div class="faq-description">
+						<p class="font" style="margin: 0">Do not worry! At the beginning of the hackathon, we will have team forming
+							activities, along with workshops for brainstorming ideas! </p>
+					</div>
+					<p class="faq-title">What should I bring?</p>
+					<div class="faq-description">
+						<p class="font" style="margin: 0">
+							Hackers should bring a laptop, and a valid ID (or some sort of student ID). We also recommend that you
+							bring your phone, chargers, power strips, toiletries, a sleeping bag, and any other supplies you might
+							need.
+						</p>
+					</div>
+				</div>
 
+				<div class="col-sm">
+					<p class="faq-title">Do I need to stay overnight?</p>
+					<div class="faq-description">
+						<p class="font" style="margin: 0">
+							No; although we highly recommend staying for the entire duration of the hackathon. Doors will be closed
+							from 10pm to 7am, and you will have to be signed out by a legal guardian.
+						</p>
+					</div>
+
+					<p class="faq-title">I love what Sigma Hacks is doing! How can I help?</p>
+					<div class="faq-description">
+						<p class="font">
+							Sigma Hacks is a non-profit organization. If interested in learning more about how you can help support
+							this event, please reach out to our team at <a href="mailto:sponsor@sigmahacks.org">sponsor@sigmahacks.org</a>.
+						</p>
+						<!-- <a href="" class="">workshop</a> <a href="" class="">mentor</a> -->
+					</div>
+
+					<p class="faq-title">What is the code of conduct?</p>
+					<div class="faq-description">
+						<p class="font" style="margin: 0">
+							We abide by the <a
+								href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a>.
+						</p>
+					</div>
+					<p class="faq-title">How much does it cost?</p>
+					<div class="faq-description">
+						<p class="font" style="margin: 0">SigmaHacks is a 100% free for all hackers. We provide food, drinks, swag,
+							WiFi, prizes, and more, all free of charge.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</header>
-	<!-- End Header -->
-	
-	<!-- Start main content -->
-	<main role="main">
-		<!-- Start About -->
-		<section id="mu-about">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-about-area">
-							<!-- Start Feature Content -->
-							<div class="row">
-								<div class="col-md-6">
-									<div class="mu-about-left">
-										<img class="" src="assets/images/coding.jpeg" alt="Men Speaker">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="mu-about-right">
-										<h2><font color="#02a8d8">About The Hackathon</h2>
-										<p>SigmaHacks is a high school hackathon organized by Cupertino High School students. Hundreds of high schoolers from across the Bay Area come together in one 28-hour coding event to turn their ideas into reality. Throughout the weekend, teams of up to 4 people will work together to create innovative solutions to real-world problems. We will be providing food, mentors, workshops, games, swag, and more food, all for free! No matter whether you've never coded before or this is your 20th hackathon, be sure not to miss this event!
+	</div>
 
-</p>
-
-										<p>Our mission is to expose more teens to STEM fields in an exciting, interactive way. In
-addition, we aim to make girls more comfortable collaborating with others in tech
-fields and more confident in their skills in order to decrease the gender gap.</p>
-
-									</div>
-								</div>
-							</div>
-							<!-- End Feature Content -->
-
-						</div>
+<div class="container-fluid lightorange-color" id="team" style="background-color: white;">
+		<div class="container" style="background-color: white;">
+			<h1 class="text-center font section-title">Team</h1>
+			<!--<div class="row justify-content-center">
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/ChristinaCook.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Christina Cook</h5>
+						<p class="profile-title font">Co-Director</p>
+						<div class="social">
+							<a href="https://twitter.com/tinathetechiee/">
+		            <i class="fab fa-twitter"></i>
+		        	</a>
+		        	<a href="https://www.linkedin.com/in/tinafcook/">
+		            <i class="fab fa-linkedin"></i>
+		        	</a>
+          	</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<!-- End About -->
-
-		<!-- Start Video -->
-		<!--<section id="mu-video">
-			<div class="mu-video-overlay">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="mu-video-area">
-								<h2>Watch Previous Event Video</h2>
-								<a class="mu-video-play-btn" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
-							</div>
-						</div>
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/ShubhaSwamy.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Shubha Swamy</h5>
+						<p class="profile-title font">Co-Director</p>
+						<div class="social">
+							<a href="https://twitter.com/shubhaswamyy">
+		            <i class="fab fa-twitter"></i>
+		        	</a>
+		        	<a href="https://www.linkedin.com/in/shubhaswamy">
+		            <i class="fab fa-linkedin"></i>
+		        	</a>
+          	</div>
 					</div>
-				</div>
-			</div>
-            -->
-			<!-- Start Video content -->
-			<!--<div class="mu-video-content">
-				<div class="mu-video-iframe-area">
-					<a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-					<iframe width="854" height="480" src="https://www.youtube.com/embed/n9AVEl9764s" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>-->
-			<!-- End Video content -->
-            
-		<!--</section>-->
-		<!-- End Video -->
-    
-		<!-- Start Schedule  -->
-		<section id="mu-schedule">
-			<div class="container">
-				<div class="row">
-					<div class="colo-md-12">
-						<div class="mu-schedule-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-title"></font><font color="383938">Schedule</h2>
-							</div>
-
-							<div class="mu-schedule-content-area">
-								<!-- Nav tabs -->
-								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
-								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">Saturday / 16 Nov</a></li>
-								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">Sunday / 17 Nov</a></li>
-								    
-								</ul>
-
-								<!-- Tab panes -->
-								<div class="tab-content mu-schedule-content">
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
-								    	<ul>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">8.30 AM</p>
-								    				<h3>Check In</h3>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.30 AM</p>
-								    				<h3>Opening Ceremony</h3>
-								    				<!--<span>By Karl Groves</span> -->
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">10.30 AM</p>
-								    				<h3>Hacking Begins</h3>
-								    			<!--
-<span>By Sarah Dransner</span> -->
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-
-								    				<p class="mu-event-time">11.30 AM</p>
-								    				<h3>Workshop #1</h3>
-								    			<!--
-<span>By Ned Stark</span> -->
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">12.45 PM</p>
-								    				<h3>Lunch</h3>
-								    			</div>
-								    		</li>
-                                            <li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">2.00 PM</p>
-								    				<h3>Workshop #2</h3>
-								    			</div>
-								    		</li>
-                                            <li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">5.00 PM</p>
-								    				<h3>Boba</h3>
-								    			</div>
-								    		</li>
-                                            <li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">6.00 PM</p>
-								    				<h3>Workshop #3</h3>
-								    			</div>
-								    		</li>
-                                            <li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">7.45 PM</p>
-								    				<h3>Dinner</h3>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
-								    	<ul>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Midnight Snack</h3>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				
-								    				<p class="mu-event-time">7.00 AM</p>
-								    				<h3>Workshop #4</h3>
-								    				<!--<span>By Karl Groves</span>-->
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				
-								    				<p class="mu-event-time">8.00 AM</p>
-								    				<h3>Breakfast</h3>
-								    				<!--<span>By Sarah Dransner</span>-->
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Project Submissions</h3>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.45 AM</p>
-								    				<h3>Preliminary Judging</h3>
-								    			</div>
-								    		</li>
-                                            <li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">10.15 AM</p>
-								    				<h3>Finalists Announced</h3>
-								    			</div>
-								    		</li>
-                                            <li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">10.30 PM</p>
-								    				<h3>2nd Judging Round</h3>
-								    			</div>
-								    		</li>
-                                            <li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">11:30 AM</p>
-								    				<h3>Awards & Closing Ceremony</h3>
-								    			</div>
-								    		</li>
-                                            <li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1:00 PM</p>
-								    				<h3>Hackathon Ends</h3>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="third-day">
-								    	<ul>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
-								    
-								</div>
-
-							</div>
-							
+			<!--<div class="row justify-content-center">
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/IvyChen.png">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Ivy Chen</h5>
+						<p class="profile-title font">Design/Marketing</p>
+						<div class="social">
+							<a href="https://twitter.com/Ivavay">
+		            <i class="fab fa-twitter"></i>
+		        	</a>
+		        	<a href="https://www.linkedin.com/in/ivy-chen-4065aab7/">
+		            <i class="fab fa-linkedin"></i>
+		        	</a>
+          	</div>
+					</div>
+				</div>
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/DanielleDelRosario.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Danielle Del Rosario</h5>
+						<p class="profile-title font">Design/Marketing</p>
+						<div class="social">
+							<a href="https://www.instagram.com/ddaaniielle/">
+		            <i class="fab fa-instagram"></i>
+		        	</a>
+		        	<a href="https://www.linkedin.com/in/danielle-delrosario">
+		            <i class="fab fa-linkedin"></i>
+		        	</a>
+          	</div>
+					</div>
+				</div>
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/LizzieSiegle.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Lizzie Siegle</h5>
+						<p class="profile-title font">Marketing</p>
+						<div class="social">
+							<a href="https://twitter.com/lizziepika">
+		            <i class="fab fa-twitter"></i>
+		        	</a>
+		        	<a href="https://linkedin.com/in/elsiegle">
+		            <i class="fab fa-linkedin"></i>
+		        	</a>
+              <a href = "https://github.com/elizabethsiegle">
+              	<i class="fab fa-github"></i>
+              </a>
+          	</div>
+					</div>
+				</div>
+				
+			</div>-->
+			<!---->
+			<div class="row justify-content-center">
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/mukund.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Mukund Krishnakumar</h5>
+						<p class="profile-title font">Executive Director</p>
+						<div class="social">
+							<!--<a href="https://www.instagram.com/king.jasz/">
+		            <i class="fab fa-instagram"></i>
+		        	</a>
+		        	<a href="https://www.linkedin.com/in/jasmine-reyes-560a22144/">
+		            <i class="fab fa-linkedin"></i>
+		        	</a> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/rucha.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Rucha Deo</h5>
+						<p class="profile-title font">Outreach Director</p>
+						<div class="social">
+							<!-- <a href="#">
+		            <i class="fab fa-twitter"></i>
+		        	</a>
+		        	<a href="#">
+		            <i class="fab fa-linkedin"></i>
+		        	</a> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/vaibhav.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Vaibhav Karanam</h5>
+						<p class="profile-title font">Technology Director</p>
+						<div class="social">
+							<!-- <a href="#">
+		            <i class="fab fa-twitter"></i>
+		        	</a> 
+		        	<a href="https://www.linkedin.com/in/namratha-prithviraj/">
+		            <i class="fab fa-linkedin"></i>
+		        	</a> -->
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- End Schedule -->
-
-		<!-- Start Speakers -->
-		<section id="mu-speakers">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-speakers-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-title"> <font color="#383938">Our Team</h2>
-							</div>
-
-							<!-- Start Speakers Content -->
-							<div class="mu-speakers-content">
-
-								<div class="mu-speakers-slider">
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/MuksSigmaHacks3.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Mukund Krishnakumar</h3>
-											<p><font color="#02a8d8">Executive Director</font></p>
-											<ul class="mu-single-speakers-social">
-												
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/BhuvanaSigmaHacks3.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Bhuvana Betini</h3>
-                                            <p><font color="#02a8d8">Sponsorship Director</font></p>
-											<ul class="mu-single-speakers-social">
-												
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/NikSigmaHacks3.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Nikunj Parasar</h3>
-                                            <p><font color="#02a8d8">Sponsorship Director</font></p>
-											<ul class="mu-single-speakers-social">
-												
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/VaibhavSigmaHacks3.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Vaibhav Karanam</h3>
-                                            <p><font color="#02a8d8">Technology Director</font></p>
-											<ul class="mu-single-speakers-social">
-												
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/VenkiSigmaHacks3.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Venkataram E. Sivaram</h3>
-                                            <p><font color="#02a8d8">Operations Director</font></p>
-											<ul class="mu-single-speakers-social">
-												
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/RuchaSigmaHacks3.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Rucha Deo</h3>
-                                            <p><font color="#02a8d8">Outreach Director</font></p>
-											<ul class="mu-single-speakers-social">
-												
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-
-									
-								</div>
-							</div>
-							<!-- End Speakers Content -->
-
+			<div class="row justify-content-center">
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/venki.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Venkataram E. Sivaram</h5>
+						<p class="profile-title font">Operations Director</p>
+						<div class="social">
+							<!--
+							<a href="https://twitter.com/shivanii72">
+		            <i class="fab fa-twitter"></i>
+		        	</a>
+		        	<a href="https://www.instagram.com/shivani72/">
+		            <i class="fab fa-instagram"></i>
+		        	</a>
+		        	<a href="https://linkedin.com/in/shivani72/">
+		            <i class="fab fa-linkedin"></i>
+		        	</a> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/bhuvana.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Bhuvana Betini</h5>
+						<p class="profile-title font">Sponsorship Director</p>
+						<div class="social">
+							<!-- <a href="#">
+		            <i class="fab fa-twitter"></i>
+		        	</a> 
+		        	<a href="https://www.linkedin.com/in/pcharagondla">
+		            <i class="fab fa-linkedin"></i>
+		        	</a> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-sm text-center">
+					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/nikunj.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Nikunj Parasar</h5>
+						<p class="profile-title font">Sponsorship Director</p>
+						<div class="social">
+							<!--
+							<a href="https://twitter.com/sbarakitkat">
+		            <i class="fab fa-twitter"></i>
+		        	</a>
+		        	<a href="https://www.linkedin.com/in/samar-barakat-686394134/">
+		            <i class="fab fa-linkedin"></i>
+		        	</a> -->
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- End Speakers -->
+		</div>
+	</div>
 
-		<!-- Start Venue -->
-		<section id="mu-venue">
-			<div class="mu-venue-area">
-				<div class="row">
+	<!--<div class="container-fluid lightorange-color">
+		<div class="container text-center" style="background-color: #F9F9F9; padding: 10em 1em;">
+			<h1 class="section-title font" style="padding: 0;">Interested in Becoming a Sponsor?</h1>
+			<h5 class="font">Be a sponsor for our upcoming hackathon in July 2019</h5>
+			<div style="margin-bottom: 2em;" >check out our <a href = "./assets/sponsorpdf/sponsorpdf.pdf">sponsorship package</a>.</div>
+			<a href="mailto:hello@sospectra.com?subject=Sponsoring%20Spectra" class="application-button" rel="email">email us</a>
+		</div>
+	</div>-->
 
-					<div class="col-md-6">
-						<div class="mu-venue-map">
-							<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAb2cEWi-j4ARbvzctwfnuKg&key=AIzaSyAQJEglds9uK6zrg5NwWQLeBPczW0eZDvM"width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<div class="mu-venue-address">
-							<h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
-							<h3>42 Silicon Valley</h3>
-							<h4>6600 Dumbarton Cir, Fremont, CA 94555</h4>
-						</div>
-					</div>
-
-				</div>
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="font" id="modal-title"></h4>
+				<span class="close">&times;</span>
 			</div>
-		</section>
-		<!-- End Venue -->
-
-		<!-- Start Register  -->
-		<!--<section id="mu-register">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-register-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-title">Sign Up!</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-							</div>
-
-							<div class="mu-register-content">
-								<form class="mu-register-form">
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="text" class="form-control" placeholder="Your Full Name" id="name" name="name" required="">
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="email" class="form-control" placeholder="Enter Your Email" id="email" name="email" required="">
-											</div>     
-										</div>
-									</div>
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="text" class="form-control" placeholder="Your Phone Number" id="telephone" name="telephone" required="">
-											</div>
-										</div>
-										<div class="col-md-6">
-											
-										<div class="form-group"> 
-											<select class="form-control" name="ticket" id="ticket">
-												<option value="0">Basic ($12)</option>
-												<option value="1">Standard ($22)</option>
-												<option value="2">Premium ($45)</option>
-											</select>
-										</div>      
-										</div>
-									</div>
-
-									<button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
-
-					            </form>
-							</div>
-
-						</div>
-					</div>
-				</div>
+			<div class="modal-body">
+				<label for="modal-requirements"><b>Requirements:</b></label>
+				<p id="modal-requirements"></p>
+				<label for="modal-description"><b>Description:</b></label>
+				<p id="modal-description"></p>
 			</div>
-		</section>-->
-		<!-- End Register -->
+		</div>
+	</div>
 
-            <!-- Start Sponsors -->
-		<section id="mu-sponsors">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-sponsors-area">
-							
-							<div class="mu-title-area">
-								<h2 class="mu-title"><font color="#02a8d8">Want to sponsor SigmaHacks?</h2>
-                                <p>Check out our Sponsorship Prospectus below!</p>
-                                <a href='./resources/SigmaHacksProspectus2019.pdf'>
-                                    <button type="submit" class="mu-send-msg-btn"><span>Sponsorship Prospectus</span></button> </a>
-                                 <a href='https://sigmahacks.typeform.com/to/RTE3Ng'>
-                                    <button type="submit" class="mu-send-msg-btn"><span>Get in Touch</span></button> </a>
-							</div>
-							
-							<!-- Start spnonsors brand logo -->
-                            
-							<div class="mu-sponsors-content">
-								<div class="row">
-								
-									<!--<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img style="background: transparent;"src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
-										</div>
-									</div>
-                                    <!--
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-4.png" alt="Brand Logo">
-										</div>
-									</div>
-
-										<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-5.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-6.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-7.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-8.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-9.png" alt="Brand Logo">
-										</div>
-									</div>
-
-										<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
-										</div>
-									</div>
-
-								</div>
-							</div>
-                            -->
-							<!-- End spnonsors brand logo --> 
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Sponsors -->
-
-
-            
-		<!-- Start FAQ -->
-		<section id="mu-faq">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-faq-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-title"><font color="383938">FAQ</h2>
-							</div>
-
-							<div class="mu-faq-content">
-
-								<div class="panel-group" gid="accordion">
-
-							        <div class="panel-group" id="accordion">
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
-							                <span class="fa fa-angle-down"></span> What is a hackathon?
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseOne" class="panel-collapse collapse in">
-							            <div class="panel-body">
-							              A hackathon is a weekend-long coding event where you turn your crazy ideas into real-world projects. We provide food, swag, mentors, workshops, guest speakers, hardware, and so much more! You do your hacking, and we’ll do the rest.
-							            </div>
-							          </div>
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-							                <span class="fa fa-angle-down"></span> Who can attend?
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseTwo" class="panel-collapse collapse">
-							            <div class="panel-body">
-							              SigmaHacks is open to all high schoolers. If you have graduated from high school, you can apply to be a mentor. Unfortunately, we are not accepting middle school participants at this time. 
-							            </div>
-							          </div>
-							        </div>
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-							                <span class="fa fa-angle-down"></span> What if I don’t know how to code? 
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseThree" class="panel-collapse collapse">
-							            <div class="panel-body">
-							              Not a problem at all! SigmaHacks is the ideal place to learn how to code, and we’ll have plenty of mentors and workshops to help you along the way. 
-							            </div>
-							          </div>
-							        </div>
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-							                <span class="fa fa-angle-down"></span> What if I don’t have a team or idea? 
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseFour" class="panel-collapse collapse">
-							            <div class="panel-body">
-							              Don’t worry! At the beginning of the hackathon, we’ll have team forming activities, along with workshops for brainstorming ideas! 
-							            </div>
-							          </div>
-							        </div>
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-							                <span class="fa fa-angle-down"></span> How much does it cost? 
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseFive" class="panel-collapse collapse">
-							            <div class="panel-body">
-							              SigmaHacks is a 100% free for all hackers. We provide food, drinks, swag, WiFi, prizes, and more, all free of charge.
-							            </div>
-							          </div>
-							        </div>
-                                    
-                                    <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-							                <span class="fa fa-angle-down"></span> What should I bring?
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseSix" class="panel-collapse collapse">
-							            <div class="panel-body">
-							            Hackers should bring a laptop, and a a valid ID (or some sort of student ID). We also recommend that you bring your phone, chargers, power strips, toiletries, a sleeping bag, and any other supplies you might need. 
-							            </div>
-							          </div>
-							        </div>
-                                    
-                                    <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-							                <span class="fa fa-angle-down"></span> Do I need to stay overnight?
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseSeven" class="panel-collapse collapse">
-							            <div class="panel-body">
-							              No; although we highly recommend staying for the entire duration of the hackathon. Doors will be closed from 10pm to 7am, and you will have to be signed out by a legal guardian. 
-							            </div>
-							          </div>
-							        </div>
-                                    
-                                    <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
-							                <span class="fa fa-angle-down"></span> What is the code of conduct?
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseEight" class="panel-collapse collapse">
-							            <div class="panel-body">
-							            We abide by the <a href='https://hackcodeofconduct.org/' style="color: dodgerblue">Hack Code of Conduct.</a>
-							            </div>
-							          </div>
-							        </div>
-                                    
-                                    <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
-							                <span class="fa fa-angle-down"></span> I have another question!
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseNine" class="panel-collapse collapse">
-							            <div class="panel-body">
-                                            Feel free to contact us at <a href='mailto:help@sigmahacks.org' style="color:blue">help@sigmahacks.org</a>. We’ll be in touch with you shortly!
-							            </div>
-							          </div>
-							        </div>
-                                    
-                               
-
-
-							    </div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End FAQ -->
-
-		
-		<!-- Start Contact -->
-		<section id="mu-contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-contact-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-heading-title"><font color="#383938">Contact Us</font></h2>
-								<p><font color="#383938">If you have any questions, comments, or concerns, feel free to shoot us an email at <a href='mailto:help@sigmahacks.org' style="color:blue">help@sigmahacks.org</a> and we'll get right back to you!</font></p>
-							</div>
-
-							<!-- Start Contact Content -->
-							<!--<div class="mu-contact-content">
-								<div class="row">
-
-								<div class="col-md-12">
-									<div class="mu-contact-form-area">
-										<div id="form-messages"></div>
-											<form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
-												<div class="form-group">                
-													<input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
-												</div>
-												<div class="form-group">                
-													<input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
-												</div>              
-												<div class="form-group">
-													<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
-												</div>
-												<button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
-								            </form>
-										</div>
-									</div>
-								</div>
-							</div>-->
-							<!-- End Contact Content -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Contact -->
-
-	</main>
-	
-	<!-- End main content -->	
-			
-			
-	<!-- Start footer -->
-	<footer id="mu-footer" role="contentinfo">
-			<div class="container">
-				<div class="mu-footer-area">
-					<div class="mu-footer-top">
-						<div class="mu-social-media">
-							<!--<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-google-plus"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-							<a href="#"><i class="fa fa-youtube"></i></a>-->
-						</div>
-					</div>
-					<div class="mu-footer-bottom">
-						<p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href="https://sigmahacks.github.io">SigmaHacks, a project of Hack+</a>. All right reserved.</p>
-					</div>
-				</div>
-			</div>
-
+	<footer class="footer container-fluid" style="margin-top: 2em;">
+		<div class="text-center">
+			<a href="mailto:help@sigmahacks.org">
+				<i class="fas fa-2x fa-envelope"></i>
+			</a>
+			<!--<a href="https://www.facebook.com/sospectra">
+				<i class="fab fa-2x fa-facebook-square"></i>
+			</a>
+			<a href="https://twitter.com/sospectra">
+				<i class="fab fa-2x fa-twitter"></i>
+			</a>
+			<a href="https://www.instagram.com/sospectra/">
+				<i class="fab fa-2x fa-instagram"></i>
+			</a>
+			<a href="https://medium.com/spectra-hackathon">
+				<i class="fab fa-2x fa-medium-m"></i>
+			</a> -->
+		</div>
+		<h3 class="font">Copyright SigmaHacks I, a project of Hack+. All right reserved.</h3>
 	</footer>
-	<!-- End footer -->
 
-	
-	
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<!-- Slick slider -->
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>
-    <!-- Event Counter -->
-    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Ajax contact form  -->
-    <script type="text/javascript" src="assets/js/app.js"></script>
-  
-       
-	
-    <!-- Custom js -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<!-- custom JavaScript -->
+	<script type="text/javascript" src="./assets/js/main.js"></script>
+	<!-- google maps api -->
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASZApUTlh-JBoNS3eg5CwsevrGW2DLOGc&callback=initMap">
+		</script>
+	<!-- BootStrap -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
-	
-	
-    
-  </body>
+	<!-- Smooth Scroll by cferdinandi -->
+	<script
+		src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+	<script>var scroll = new SmoothScroll('a[href*="#"]');</script>
+</body>
+
 </html>
