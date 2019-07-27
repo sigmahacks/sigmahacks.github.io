@@ -130,7 +130,7 @@ footer h3 {
 	display: block;
 	height: 55vh;
 	overflow-y: auto;
-	overflow-x: hidden;
+	overflow-x: auto;
 }
 
 #schedule thead {
