@@ -374,12 +374,12 @@ footer h3 {
 
 
 
-/* test */
+/* NEW LANDING */
 .rectangle-1 {
   width: 2000px;
   height: 400px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: #02a8d8;
+  background: -webkit-linear-gradient(to right, #c9cccc, #02a8d8);
   background: linear-gradient(to right, #c9cccc, #02a8d8);
   transform-origin: 50% 150% 0;
   position: absolute;
@@ -390,8 +390,8 @@ footer h3 {
 .rectangle-2 {
   width: 2000px;
   height: 400px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: #02a8d8;
+  background: -webkit-linear-gradient(to right, #02a8d8, #c9cccc);
   background: linear-gradient(to right, #02a8d8, #c9cccc);
   transform-origin: 65% 100% 0;
   position: absolute;
@@ -674,7 +674,7 @@ footer h3 {
     right: 0;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to bottom, #02a8d8, #F9F9F9);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #02a8d8, #F9F9F9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
@@ -684,7 +684,7 @@ footer h3 {
     display: inline-block;
     border: 15px solid #fff;
     padding: 30px;
-    font-size: 9rem;
+    font-size: 6.25rem;
     opacity: 0;
     animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
     animation-delay: .8s; }
