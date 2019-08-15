@@ -678,16 +678,32 @@ footer h3 {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #02a8d8, #F9F9F9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-  .jumbotron h1 {
+@media only screen and (max-width: 1125px) {
+    .jumbotron h1 {
+        line-height: .9;
+        font-weight: bold;
+        display: inline-block;
+        border: 1rem solid #fff;
+        padding: 1.5rem;
+        font-size: 5.25rem;
+        opacity: 0;
+        animation: 1.2s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1.2s forwards;
+        animation-delay: 1s; 
+
+    }
+}  
+.jumbotron h1 {
     line-height: .9;
     font-weight: bold;
     display: inline-block;
-    border: 1rem solid #fff;
-    padding: 1.5rem;
-    font-size: 5.5rem;
+    border: 1.3rem solid #fff;
+    padding: 1.8rem;
+    font-size: 6.5rem;
     opacity: 0;
     animation: 1.2s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1.2s forwards;
-    animation-delay: 1s; }
+    animation-delay: 1s; 
+    
+}
 
 .jumbotron-single h1 {
   font-size: 3rem !important; }
