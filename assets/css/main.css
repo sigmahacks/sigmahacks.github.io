@@ -751,7 +751,7 @@ footer h3 {
 color: #494949 !important;
 text-transform: uppercase;
 text-decoration: none;
-background: rgba(249, 249, 249, 0.7);
+background: #ffffff;
 padding-bottom: 50px;
 padding-top: 50px;
 margin-bottom: 12px;
@@ -767,7 +767,7 @@ width: 500px;
         color: #494949 !important;
         text-transform: uppercase;
         text-decoration: none;
-        background: rgba(249, 249, 249, 0.7);
+        background: #ffffff;
         padding-bottom: 50px;
         padding-top: 50px;
         margin-bottom: 12px;
@@ -786,102 +786,4 @@ color: #ffffff !important;
 background: #02a8d8;
 border-color: #383938;
 transition: all 0.4s ease 0s;
-}
-
-
-
-.wrapper{
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-button{
-  display: block;
-  width: 40%;
-  height: 45px;
-  line-height: 40px;
-  font-size: 18px;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: #383938;
-  border: 2px solid #383938;
-  letter-spacing: 2px;
-  text-align: center;
-  position: relative;
-  transition: all .35s;
-  margin-top: 25px;
-  left: 30%;
-  background: #02a8d8;
-}
-
-button span{
-  position: relative;
-  z-index: 2;
-}
-
-button:after{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: rgba(249, 249, 249, 0.3);
-  transition: all .35s;
-}
-
-button:hover{
-  color: #383938;
-}
-
-button:hover:after{
-  width: 100%;
-}
-
-
-
-
-button2{
-  display: block;
-  width: 70%;
-  height: 45px;
-  line-height: 40px;
-  font-size: 18px;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: #383938;
-  border: 2px solid #383938;
-  letter-spacing: 2px;
-  text-align: center;
-  position: relative;
-  transition: all .35s;
-  margin-top: 25px;
-  left: 15%;
-  background: #02a8d8;
-}
-
-button2 span{
-  position: relative;
-  z-index: 2;
-}
-
-button2:after{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: rgba(249, 249, 249, 0.3);
-  transition: all .35s;
-}
-
-button2:hover{
-  color: #383938;
-}
-
-button2:hover:after{
-  width: 100%;
 }
