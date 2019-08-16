@@ -741,3 +741,49 @@ footer h3 {
 
 .text-white {
   color: #fff; }
+
+
+
+
+
+
+.example_c {
+color: #494949 !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ffffff;
+padding-bottom: 50px;
+padding-top: 50px;
+margin-bottom: 12px;
+margin-top: 12px;
+border: 1px solid #383938;
+display: auto;
+transition: all 0.4s ease 0s;
+width: 500px;
+}
+
+@media only screen and (max-width: 1125px) {
+    .example_c {
+        color: #494949 !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #ffffff;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        border: 1px solid #383938;
+        display: auto;
+        transition: all 0.4s ease 0s;
+        width: 250px;
+    }
+}
+
+
+
+.example_c:hover {
+color: #ffffff !important;
+background: #02a8d8;
+border-color: #383938;
+transition: all 0.4s ease 0s;
+}
