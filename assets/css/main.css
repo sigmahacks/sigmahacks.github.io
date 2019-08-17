@@ -851,7 +851,7 @@ transition: all 0.4s ease 0s;
 
 .button2{
   display: block;
-  width: 70%;
+  width: 50%;
   height: 45px;
   line-height: 40px;
   font-size: 18px;
@@ -865,7 +865,7 @@ transition: all 0.4s ease 0s;
   transition: all .35s;
   margin-top: -10px;
   margin-bottom: -100px;
-  left: 15%;
+  left: 25%;
   background: #02a8d8;
 }
 
@@ -891,6 +891,53 @@ transition: all 0.4s ease 0s;
 
 .button2:hover:after{
   width: 100%;
+}
+
+@media only screen and (max-width: 1125px) {
+    .button2{
+      display: block;
+      width: 100%;
+      height: 45px;
+      line-height: 40px;
+      font-size: 18px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #383938;
+      border: 2px solid #383938;
+      letter-spacing: 2px;
+      text-align: center;
+      position: relative;
+      transition: all .35s;
+      margin-top: -10px;
+      margin-bottom: -100px;
+      left: 0%;
+      background: #02a8d8;
+    }
+
+    .button2 span{
+      position: relative;
+      z-index: 2;
+    }
+
+    .button2:after{
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: rgba(249, 249, 249, 0.3);
+      transition: all .35s;
+    }
+
+    .button2:hover{
+      color: #383938;
+    }
+
+    .button2:hover:after{
+      width: 100%;
+    }
+
 }
 
 
@@ -940,4 +987,53 @@ transition: all 0.4s ease 0s;
 
 .button3:hover:after{
   width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1125px) {
+    .button3{
+      display: block;
+      width: 60%;
+      height: 45px;
+      line-height: 40px;
+      font-size: 18px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #383938;
+      border: 2px solid #383938;
+      letter-spacing: 2px;
+      text-align: center;
+      position: relative;
+      transition: all .35s;
+      margin-top: -130px;
+      left: 20%;
+      background: transparent;
+      animation: 1.2s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1.2s forwards;
+      animation-delay: 0s; 
+    }
+
+    .button3 span{
+      position: relative;
+      z-index: 2;
+    }
+
+    .button3:after{
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: rgba(2, 168, 216, 0.3);
+      transition: all .35s;
+    }
+
+    .button3:hover{
+      color: #383938;
+    }
+
+    .button3:hover:after{
+      width: 100%;
+    }
 }
