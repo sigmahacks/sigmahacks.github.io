@@ -797,7 +797,7 @@ transition: all 0.4s ease 0s;
   transform: translate(-50%, -50%);
 }
 
-button{
+.button{
   display: block;
   width: 40%;
   height: 45px;
@@ -811,17 +811,17 @@ button{
   text-align: center;
   position: relative;
   transition: all .35s;
-  margin-top: 25px;
+  margin-top: -20px;
   left: 30%;
   background: #02a8d8;
 }
 
-button span{
+.button span{
   position: relative;
   z-index: 2;
 }
 
-button:after{
+.button:after{
   position: absolute;
   content: "";
   top: 0;
@@ -832,18 +832,18 @@ button:after{
   transition: all .35s;
 }
 
-button:hover{
+.button:hover{
   color: #383938;
 }
 
-button:hover:after{
+.button:hover:after{
   width: 100%;
 }
 
 
 
 
-button2{
+.button2{
   display: block;
   width: 70%;
   height: 45px;
@@ -857,17 +857,17 @@ button2{
   text-align: center;
   position: relative;
   transition: all .35s;
-  margin-top: 25px;
+  margin-top: -10px;
   left: 15%;
   background: #02a8d8;
 }
 
-button2 span{
+.button2 span{
   position: relative;
   z-index: 2;
 }
 
-button2:after{
+.button2:after{
   position: absolute;
   content: "";
   top: 0;
@@ -878,10 +878,10 @@ button2:after{
   transition: all .35s;
 }
 
-button2:hover{
+.button2:hover{
   color: #383938;
 }
 
-button2:hover:after{
+.button2:hover:after{
   width: 100%;
 }
