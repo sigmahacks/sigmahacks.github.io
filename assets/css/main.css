@@ -896,7 +896,7 @@ transition: all 0.4s ease 0s;
 @media only screen and (max-width: 1125px) {
     .button2{
       display: block;
-      width: 100%;
+      width: 110%;
       height: 45px;
       line-height: 40px;
       font-size: 18px;
@@ -910,7 +910,7 @@ transition: all 0.4s ease 0s;
       transition: all .35s;
       margin-top: -10px;
       margin-bottom: -100px;
-      left: 0%;
+      left: -5%;
       background: #02a8d8;
     }
 
@@ -994,7 +994,7 @@ transition: all 0.4s ease 0s;
 @media only screen and (max-width: 1125px) {
     .button3{
       display: block;
-      width: 60%;
+      width: 70%;
       height: 45px;
       line-height: 40px;
       font-size: 18px;
@@ -1007,7 +1007,7 @@ transition: all 0.4s ease 0s;
       position: relative;
       transition: all .35s;
       margin-top: -130px;
-      left: 20%;
+      left: 15%;
       background: transparent;
       animation: 1.2s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1.2s forwards;
       animation-delay: 0s; 
