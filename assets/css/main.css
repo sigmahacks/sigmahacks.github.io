@@ -675,7 +675,9 @@ footer h3 {
       min-height: 500px; } }
   .jumbotron .container {
     position: relative;
-    z-index: 1; }
+    z-index: 1; 
+    display: block;
+  }
   .jumbotron:before {
     position: absolute;
     display: block;
@@ -695,7 +697,7 @@ footer h3 {
 .jumbotron h1 {
     line-height: .9;
     font-weight: bold;
-    display: inline-block;
+    display: block;
     border: 1.3rem solid #fff;
     padding: 1.8rem;
     font-size: 6.5rem;
@@ -705,11 +707,25 @@ footer h3 {
     
 }
 
+.jumbotron h2 {
+  line-height: .9;
+  display: block;
+  padding-top: 2rem;
+  padding-bottom: -1.0rem;
+  font-size: 1.75rem;
+  opacity: 0;
+  animation: 1.2s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1.2s forwards;
+  animation-delay: 1s;
+  color: #383938; 
+  
+}
+
+
 @media only screen and (max-width: 1125px) {
     .jumbotron h1 {
         line-height: .9;
         font-weight: bold;
-        display: inline-block;
+        display: block;
         border: 1rem solid #fff;
         padding: 1.5rem;
         font-size: 4rem;
@@ -727,7 +743,6 @@ footer h3 {
 .overlay {
   color: #fff; }
   .overlay:before {
-    position: absolute;
     display: block;
     content: "";
     opacity: 0.9;
