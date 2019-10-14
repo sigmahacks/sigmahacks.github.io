@@ -259,6 +259,15 @@ footer h3 {
 	grid-column-end: 4;
 }
 
+.campus-profile img {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+	box-shadow: -15px 15px #02a8d8;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
 .profile-name {
 	margin: 0.5em 0 0 0;
 	grid-column-start: 1;
@@ -311,6 +320,16 @@ footer h3 {
 	grid-column-start: 3;
 	grid-column-end: 4;
 	margin: -10px -12px 0 auto;
+}
+
+.campus-img-highlight {
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	margin: -3px 0px 0px fixed;
 }
 
 .modal {
@@ -957,6 +976,98 @@ transition: all 0.4s ease 0s;
 
 }
 
+.button4{
+  display: block;
+  width: 50%;
+  height: 45px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #383938;
+  border: 2px solid #383938;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  margin-top: -10px;
+  margin-bottom: -100px;
+  left: 25%;
+  background: white;
+}
+
+.button4 span{
+  position: relative;
+  z-index: 2;
+}
+
+.button4:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgba(2, 168, 216, 0.3);
+  transition: all .35s;
+}
+
+.button4:hover{
+  color: #383938;
+}
+
+.button4:hover:after{
+  width: 100%;
+}
+
+@media only screen and (max-width: 1125px) {
+    .button4{
+      display: block;
+      width: 110%;
+      height: 45px;
+      line-height: 40px;
+      font-size: 18px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #383938;
+      border: 2px solid #383938;
+      letter-spacing: 2px;
+      text-align: center;
+      position: relative;
+      transition: all .35s;
+      margin-top: -10px;
+      margin-bottom: -100px;
+      left: -5%;
+      background: white;
+    }
+
+    .button4 span{
+      position: relative;
+      z-index: 2;
+    }
+
+    .button4:after{
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: rgba(2, 168, 216, 0.3);
+      transition: all .35s;
+    }
+
+    .button4:hover{
+      color: #383938;
+    }
+
+    .button4:hover:after{
+      width: 100%;
+    }
+
+}
+
+
 
 
 
@@ -1054,3 +1165,8 @@ transition: all 0.4s ease 0s;
       width: 100%;
     }
 }
+
+
+
+
+
