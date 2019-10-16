@@ -179,7 +179,7 @@
 						<th scope="row">9:30 AM</th>
 						<td>Opening Ceremony</td>
 						<td style="font-weight: bold;">7:00 AM</td>
-						<td>Workshop #4</td>
+						<td onclick="showDescription('react')" class="schedule-link">Building a STEM Career</td>
 					</tr>
 					<tr>
 						<th scope="row">10:30 AM</th>
@@ -189,7 +189,7 @@
 					</tr>
 					<tr>
 						<th scope="row">11:30 AM</th>
-						<td>Workshop #1</td>
+						<td style="font-weight: bold;" onclick="showDescription('braintreevenmo')" class="schedule-link">Brainstorming an Idea</td>
 						<td style="font-weight: bold;">9:00 AM</td>
 						<td>Project Submissions</td>
 					</tr>
@@ -201,7 +201,7 @@
 					</tr>
 					<tr>
 						<th scope="row">2:00 PM</th>
-						<td>Workshop #2</td>
+						<td onclick="showDescription('android')" class="schedule-link">App Development presented by Thunkable</td>
 						<td style="font-weight: bold;">10:15 AM</td>
 						<td>Finalists Announced</td>
 					</tr>
@@ -213,7 +213,7 @@
 					</tr>
 					<tr>
 						<th scope="row">6:00 PM</th>
-						<td>Workshop #3</td>
+						<td onclick="showDescription('flutter')" class="schedule-link">Machine Learning with Tensorflow and Keras</td>
 						<td style="font-weight: bold;">11:30 AM</td>
 						<td >Awards & Closing Ceremony</td>
 					</tr>
@@ -705,7 +705,7 @@
 				<span class="close">&times;</span>
 			</div>
 			<div class="modal-body">
-				<label for="modal-requirements"><b>Requirements:</b></label>
+				<label for="modal-requirements"><b>Speaker:</b></label>
 				<p id="modal-requirements"></p>
 				<label for="modal-description"><b>Description:</b></label>
 				<p id="modal-description"></p>
@@ -726,7 +726,7 @@
 					<img class="sponsor-logo-3" src="./assets/images/sponsors/40hrslogo.png" alt="40 Hours Staffing">
 				</a>
 				<a href="https://about.google/">
-					<img class="sponsor-logo-3" src="./assets/images/sponsors/googlelogo.png" alt="Google" style="width:305px;height:305px">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/googlelogo.png" alt="Google" style="width:240px;height:240px">
 				</a>
 				<a href="https://www.tensorflow.org">
 					<img class="sponsor-logo-3" src="./assets/images/sponsors/FullColor_Primary.png" alt="tensor flow" style="width:290px;height:200px">
