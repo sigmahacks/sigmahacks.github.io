@@ -54,24 +54,24 @@ var title = document.getElementById("modal-title");
 
 var descriptions ={
 	braintreevenmo: {
-		t: "Braintree - What is Infrastructure?",
-		r: "I will be working with the technologies I am most familiar with. Please have created a free <a href=\"https://aws.amazon.com/free\">AWS account</a> and a <a href=\"https://github.com/\">Github account</a>, with git, <a href=\"https://www.terraform.io/\">Terraform</a>, and <a href=\"https://www.packer.io/\">Packer</a> installed locally.<br><br>It shouldn't be necessary to develop in a Linux environment, but I strongly recommend users who have never developed in such an operating system to try it out at some point. The example repository will use AWS as a cloud infrastructure host but it is possible to modify this example to work with any other provider like Google Cloud / DigitalOcean / IBM BlueMix / etc. since Terraform supports those providers.<br><br>Also note the exercise is totally optional, you can achieve what you want using Heroku / some other similar service too -- I just think understanding how to work on a remote host is more valuable for a project you want to maintain longer-term (which is what you'd do at a company!)",
-		d: "This workshop aims to give the audience an overview of what infrastructure is, what levels of the stack you'll see in the wild at different sized companies and the types of problems \"infrastructure\" generally refers to, a comparison of different types of technologies so some job listings will be more understandable, and how that is relevant for hackathons in general via an exercise.<br><br>The exercise will be an example repository that sets up an AWS EC2 instance with an example backend app deployed, with a frontend hosted on Github Pages so you get a free domain for your hackathon demo.<br><br>Recommended reading for the graduating seniors interested in careers in infrastructure: <a href=\"https://landing.google.com/sre/books/\">Google's SRE book</a>"
+		t: "Brainstorming an Idea",
+		r: "TBD",
+		d: "One of the hardest parts of a great hackathon project is coming up with an initial idea. This workshop helps hackers overcome this initial barrier by teaching them how to think of a problem they want to tackle, brainstorm ways to solve the problem using technology, and begin executing their project.</a>"
 	},
 	android: {
-		t: "Building Intelligent Applications with Android",
-		r: "This workshop is beginner friendly! Participants should have an understanding of how code architecture is executed, and have the following installed on their machines:<br>- Android Studio with Java SDK<br>- Microsoft Azure Developer account",
-		d: "How difficult is it to build yourself an intelligent application? When you hear “artificial intelligence”, you might think of complex solutions like autonomous drones, self-driving cars, and smart robots - but it doesn’t have to be that complex. In this workshop, you will learn how to build intelligent algorithms into an Android application that detects human faces in an image using Azure Cognitive Services."
+		t: "App Development presented by Thunkable",
+		r: "Presented by Thunkable",
+		d: "Building a great mobile app can be difficult if you don't know where to start. This workshop will give a brief overview of how to get started coding a mobile app, along with some tools and software you can use to streamline the process."
 	},
 	flutter: {
-		t: "Introduction to Flutter - iOS/Android",
-		r: "Beginners welcome! Bring a computer installed with Android Studio, Xcode, or  any text editor you find comfortable, and either the ability to open a mobile simulator on your machine, or a mobile phone compatible with your laptop. Installing Flutter and other programs needed will be covered in the workshop.",
-		d: "Learn an easy way to create a cross-platform mobile application that looks great! At this workshop, you'll learn how to take you hackathon idea and make a beautiful, fast, and productive functional UI in a few easy steps."
+		t: "Machine Learning with Tensorflow and Keras",
+		r: "Paige Bailey, Tensorflow Product Manager",
+		d: "Machine learning may sound intimidating, but with the use of APIs such as Tensorflow and Keras, it has never been easier. This workshop goes over the basics of Tensorflow's new API, Tensorflow 2.0, along with the use of Keras in Tensorflow 2.0 to give students a head start in machine learning."
 	},
 	react: {
-		t: "Learn web development by building a Pokedex",
-		r: "1. Install a text editor, I recommend VS Code<br>2. Install Node.js LTS<br>3. Install Git",
-		d: "Learn how web applications work and how to build one using <b>React.</b> You will learn how modern web applications are built, how to use real software engineering tools and best practices. You will leave having built a working Pokedex which can be used as a starting point for your hackathon project."
+		t: "Building a STEM Career",
+		r: "Vidya Subramanian, Analytics Leader at Apple",
+		d: "Choosing the right career path may seem overwhelming and intimidating, which is why this presentation will describe STEM career paths, and how to build up to an ideal STEM career."
 	},
 	game: {
 		t: "Game Changing Bonanza hosted by RingCentral",
