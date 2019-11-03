@@ -55,7 +55,7 @@ var title = document.getElementById("modal-title");
 var descriptions ={
 	braintreevenmo: {
 		t: "Brainstorming an Idea",
-		r: "TBD",
+		r: "Anubhava Shrivastava, Technical Leader at Cisco",
 		d: "One of the hardest parts of a great hackathon project is coming up with an initial idea. This workshop helps hackers overcome this initial barrier by teaching them how to think of a problem they want to tackle, brainstorm ways to solve the problem using technology, and begin executing their project.</a>"
 	},
 	android: {
