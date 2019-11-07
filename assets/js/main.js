@@ -60,7 +60,7 @@ var descriptions ={
 	},
 	android: {
 		t: "App Development presented by Thunkable",
-		r: "Presented by Thunkable",
+		r: "Paul Medlock-Walton, Software Engineer at MIT",
 		d: "Building a great mobile app can be difficult if you don't know where to start. This workshop will give a brief overview of how to get started coding a mobile app, along with some tools and software you can use to streamline the process."
 	},
 	flutter: {
