@@ -267,6 +267,10 @@ footer h3 {
 	grid-column-start: 3;
 	grid-column-end: 4;
 }
+.container-fluid.lightorange-color {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 .profile-name {
 	margin: 0.5em 0 0 0;
