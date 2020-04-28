@@ -1,0 +1,105 @@
+// Base button styles
+// -------------------------------------------------------------------
+.btn {
+    background-image: none; // Reset unusual Firefox-on-Android default style: https://github.com/necolas/normalize.css/issues/214
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block; // Allow us to better style box model properties
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    margin-bottom: 0; // For input.btn
+    padding: .95rem 2rem .85rem;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: background-color .2s ease-out, background .2s ease-out, color .2s ease-out, border .2s ease-out;
+    user-select: none;
+    vertical-align: middle; // Line different size buttons up nicely
+    white-space: nowrap; // Stop buttons wrapping and looking broken
+    -webkit-appearance: none;
+            appearance: none;
+
+    &:hover,
+    &:focus {
+        outline: 0;
+        text-decoration: none;
+    }
+
+    &:active {
+        outline: 0;
+        background-image: none;
+    }
+
+    &.disabled,
+    &[disabled],
+    &[readonly],
+    fieldset[disabled] & {
+        cursor: not-allowed !important;
+        opacity: 1; // iOS fix for unreadable disabled content
+        pointer-events: none; // Future-proof disabling of clicks
+    }
+
+    @media screen and (max-width: 40em) {
+        display: block;
+        margin-bottom: .8rem;
+    }
+}
+
+a.btn {
+    &.disabled,
+    fieldset[disabled] & {
+        pointer-events: none; // Future-proof disabling of clicks on `<a>` elements
+    }
+}
+
+
+// Button sizes
+// -------------------------------------------------------------------
+.btn--sm {
+    font-size: .75rem;
+    padding: .1rem .6rem 0;
+}
+
+
+// Button skins
+// -------------------------------------------------------------------
+// Default button
+.btn--default {
+    background-color: #4C83FF;
+    border-color: #4C83FF;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+        background-color: darken(#4C83FF, 10%);
+        border-color: darken(#4C83FF, 10%);
+    }
+
+    &:active {
+        background-color: darken(#4C83FF, 20%);
+        border-color: darken(#4C83FF, 20%);
+    }
+}
+
+// Outline button
+.btn--outline,
+.btn--outline:visited {
+    background-color: transparent;
+    border-color: #c9cccc;
+    border-width: 1px;
+    color: #383938;
+
+    &:hover,
+    &:focus {
+        background-color: transparent;
+        border-color: #383938;
+    }
+
+    &:active {
+        background-color: transparent;
+        border-color: #c9cccc;
+    }
+}
