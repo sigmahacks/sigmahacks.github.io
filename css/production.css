@@ -18,7 +18,7 @@ input {
     border-radius: 3px;
     cursor: pointer;
     position: relative;
-    top: 14px;
+    top: 9px;
     left: 9.5px;
 }
 
@@ -93,7 +93,7 @@ input {
     height: 50px;
     width: 50px;
     left: 15px;
-    bottom: -26px;
+    bottom: -21px;
     background-color: #efc045;
     border-radius: 75%;
     display: inline-block;
