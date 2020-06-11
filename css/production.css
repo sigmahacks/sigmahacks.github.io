@@ -54,22 +54,44 @@ input {
     padding: 15px;
     cursor: pointer;
     float: right;
+    position: relative;
 }
 
 .menuOpen:hover .open:before {
     top: -9px;
 }
+@media only screen and (max-width: 480px) {
+    .dot {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        left: 17px;
+        bottom: -79px;
+        background-color: #efc045;
+        border-radius: 75%;
+        display: inline-block;
+    }
+    .menu label {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 17px;
+        bottom: -79px;
+        background-size: 100%;
+        cursor: pointer;
+    }
 
+}
 .menuOpen:hover .open:after {
     top: 5px;
 }
 
 .dot {
-    position: fixed;
+    position: absolute;
     height: 50px;
     width: 50px;
-    left: 12px;
-    bottom: 13px;
+    left: 5px;
+    bottom: -20px;
     background-color: #efc045;
     border-radius: 75%;
     display: inline-block;
@@ -143,6 +165,7 @@ div.fixed {
     transform: translateY(0%);
     transition: all 0.5s;
 }
+
 
 #menuToggle:checked ~ .menuEffects {
     opacity: 1;
