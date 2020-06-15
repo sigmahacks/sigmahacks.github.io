@@ -14,6 +14,19 @@
 <div class="page-border">
     <div style="background-color:#F5F5EE" >
 
+        <nav id="nav">
+            <button class="nav-icon" id="nav-icon"><span></span></button>
+            <ul>
+                <li><a  href="#register">register</a></li>
+                <li><a  href="#about">about</a></li>
+                <li><a  href="#tracks">tracks</a></li>
+                <li><a  href="#sponsors">sponsors</a></li>
+                <li><a  href="#faq">faqs</a></li>
+                <li><a  href="#team">team</a></li>
+
+
+            </ul>
+        </nav>
 
 
         <!-- <div id="menuArea" class="fixed">
@@ -267,10 +280,23 @@
             </div>
 
             <script>
-                function myFunction() {
-                    document.getElementById("menuToggle").checked = false;
+                var nav = document.getElementById('nav');
+                var navlinks = nav.getElementsByTagName('a');
+
+                function toggleNav() {
+                    (nav.classList.contains('active')) ? nav.classList.remove('active') : nav.classList.add('active');
                 }
 
+                document.getElementById('nav-icon').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    toggleNav();
+                });
+
+                for(var i = 0; i < navlinks.length; i++) {
+                    navlinks[i].addEventListener('click', function() {
+                        toggleNav();
+                    });
+                }
             </script>
 
 
