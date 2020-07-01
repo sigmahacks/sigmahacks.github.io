@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en-us">
-
+<!--comment-->
 <!--comment-->
 <!--blank comment-->
 <!--blank comment-->
@@ -9,15 +9,47 @@
     <title>SigmaHacks 2.0</title>
     <link rel="stylesheet" href="css/production.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+
 </head>
 <!-- Create outer border -->
 <div class="page-border">
     <div style="background-color:#F5F5EE" >
 
+        <nav id="nav">
+            <button class="nav-icon" id="nav-icon"><span></span></button>
+            <ul>
+                <li><a  href="#register">register</a></li>
+                <li><a  href="#about">about</a></li>
+                <li><a  href="#tracks">tracks</a></li>
+                <li><a  href="#sponsors">sponsors</a></li>
+                <li><a  href="#faq">faqs</a></li>
+                <li><a  href="#team">team</a></li>
+
+            </ul>
+        </nav>
+        <div class='popup'>
+            <div class='cnt223'>
+                <br>
+<!--                <h1 style="text-align: center;">REGISTER NOW</h1>-->
+                <video controls autoplay>
+                    <source src="img/SigmaHacks%202.0%20.mp4" type="video/mp4">
+                </video>
+                <br>
+                <br>
+                <div style="text-align: center;">
+                    <a href="https://go.sigmahacks.org/register2020" class="btn" style="font-family: Raleway; text-align: center;">Signup Now!</a>
+                    <a href="https://sigmahacks-2.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover" class="btn" style="font-family: Raleway; text-align: center;">Join Devpost</a>
+
+                </div>
+                <div style="text-align: center;">
+                <a href='' class='close'>Close</a>
+                </div>
+            </div>
+        </div>
 
 
         <!-- <div id="menuArea" class="fixed">
-
             <input type="checkbox" id="menuToggle"></input>
             <label for="menuToggle" class="menuOpen">
                 <span class="dot"></span>
@@ -71,6 +103,7 @@
                 <section class="align--center pt3 pb3">
                     <a href="https://go.sigmahacks.org/register2020" class="btn" style="font-family: Raleway;">Signup Now!</a>
                     <a href="img/SigmaHacks2Schedule.pdf" class="btn" style="font-family: Raleway;">Schedule</a>
+<!--                    <a href="https://go.sigmahacks.org/mentor2020" class="btn" style="font-family: Raleway;">Be a Mentor!</a>-->
                     <p class="small mt1 text--gray" style="font-family: Raleway;">Registration closes July 20th at midnight.</p>
 
 
@@ -81,7 +114,7 @@
                     <h3 class="mb2" style="font-family: Raleway;">About</h3>
                     <p class="mt1 text--gray" style="font-family: Raleway;">
                         With the world facing an
-                        unprecedented challenge in the
+                        unprecedented challenge during the
                         COVID-19 pandemic, people all around
                         the world have been affected like never
                         before. We thank those on the
@@ -100,10 +133,14 @@
                 </section>
 
 
-
+<br>
                 <!-- Sponsors -->
                 <section class="pt3 pb3 align--center" id="tracks">
                     <h3 class="mb2" style="font-family: Raleway;">Tracks</h3>
+                    <p class="mt1 text--gray" style="font-family: Raleway;">
+                        A track is designed for hackers to solve problems in a certain industry, build using a specific technology, or tackle issues in a specific field.
+                        During the event, you must choose at least one track for your project, but you are free to choose more than one if you wish.
+                    </p>
                     <!--                    <h4 class="mb2 text&#45;&#45;gray" style="font-family: Raleway;">Community, Healthcare, and Productivity ... More Details Coming Soon!</h4>-->
                     <div class="grid-row" style="display: flex;flex-direction: row;justify-content: space-between;">
 
@@ -129,6 +166,9 @@
                 </section>
 
                 <br>
+
+
+
                 <section class="pt3 pb3 align--center" id="sponsors">
                     <h3 class="mb2" style="font-family: Raleway;" >Sponsors</h3>
                     <div class="pt3 pb1 align--center" >
@@ -137,21 +177,22 @@
                     </div>
                     <div class="pt3 pb1 align--center">
                         <a href="https://about.google/"><img style="width: 239px; height: 78px;" class="m1"src="img/googlesh2.png"></a>
-                        <a href="https://www.snap.com/en-US/"><img style="width: 131px; height: 131px;" class="m1"src="img/SnapSH.png"></a>
+                        <a href="https://www.snap.com/en-US/"><img style="width: 137px; height: 137px;" class="m1"src="img/officialSnap.png"></a>
                         <a href="https://www.40hrs.us/"><img style="width: 210px; height: 90px;" class="m1"src="img/40hrslogo.png"></a>
                     </div>
                     <div class="pt3 pb1 align--center" >
-                        <a href="https://balsamiq.com/"><img style="width: 183px; height: 113px;" class="m1"src="img/balsamiqSH.png"></a>
-                        <a href="https://www.linode.com/"><img style="width: 191px; height: 56px;" class="m1"src="img/linode.svg"></a>
-                        <a href="https://www.echoar.xyz/"><img style="width: 216px; height: 42px;" class="m1"src="img/echoAR_-_Logo_2020_-_Dark.png"></a>
-                        <a href="https://www.sashido.io/en/"><img style="width: 191px; height: 56px;" class="m1"src="img/sashidologo.png"></a>
+                        <a href="https://balsamiq.com/"><img style="width: 177px; height: 51px;" class="m1"src="img/balsamiq-logo-noborder-screen.png"></a>
+                        <a href="https://www.linode.com/"><img style="width: 172px; height: 51px;" class="m1"src="img/linode.svg"></a>
+                        <a href="https://www.echoar.xyz/"><img style="width: 195px; height: 38px;" class="m1"src="img/echoAR_-_Logo_2020_-_Dark.png"></a>
+                        <a href="https://www.hyperxgaming.com/unitedstates/us"><img style="width: 221px; height: 65px;" class="m1"src="img/hyperx.png"></a>
+                        <a href="https://www.sashido.io/en/"><img style="width: 172px; height: 51px;" class="m1"src="img/sashidologo.png"></a>
                     </div>
                     <div class="pt3 pb1 align--center">
-                        <a href="https://cloudsploit.com/"><img style="width: 239px; height: 56px;" class="m1"src="img/cloudsploit_by_aqua.png"></a>
-                        <a href="https://www.wolframalpha.com/"><img style="width: 213px; height: 75px;" class="m1"src="img/wolframSH2.png"></a>
-                        <a href="https://bugsee.com/"><img style="width: 111px; height: 111px;" class="m1"src="img/bugseesh2.png"></a>
-                        <a href="https://artofproblemsolving.com/"><img style="width: 159px; height: 56px;" class="m1"src="img/AOPS2SH.png"></a>
-                        <a href="https://magoosh.com/"><img style="width: 192px; height: 48px;" class="m1"src="img/magoosh.png"></a>
+                        <a href="https://cloudsploit.com/"><img style="width: 215px; height: 51px;" class="m1"src="img/cloudsploit_by_aqua.png"></a>
+                        <a href="https://www.wolframalpha.com/"><img style="width: 192px; height: 68px;" class="m1"src="img/wolframSH2.png"></a>
+                        <a href="https://bugsee.com/"><img style="width: 100px; height: 100px;" class="m1"src="img/bugseesh2.png"></a>
+                        <a href="https://artofproblemsolving.com/"><img style="width: 143px; height: 51px;" class="m1"src="img/AOPS2SH.png"></a>
+                        <a href="https://magoosh.com/"><img style="width: 173px; height: 43px;" class="m1"src="img/magoosh.png"></a>
                     </div>
 
 
@@ -165,6 +206,8 @@
                     <img class="m1" src="img/zopim.svg" alt="Zopim" style="height: 50px;"> -->
 
                 </section>
+
+
                 <!-- Testimonials -->
                 <section class="pt2 pb3" id="faq">
                     <h3 class="align--center mb2" style="font-family: Raleway;">FAQs</h3>
@@ -261,17 +304,141 @@
                             <p class="small" style="color:transparent;">gap</p>
                             <p class="small" style="font-family: Raleway; font-size: 16px;"> <strong>Operations</strong></p>
                         </div>
+
                     </div>
+                    <br>
+                    <br>
+                    <div class="grid-row" style="display: flex; justify-content: center; align-items: center;">
+
+                        <div class="grid-column span-2 mt2">
+                            <img class="mb2" src="img/hanna.jpg" alt="Hanna">
+                            <p class="small" style="font-family: Raleway; font-size:20px">Hanna</p>
+                            <p class="small" style="color:transparent;">gap</p>
+                            <p class="small" style="font-family: Raleway; font-size: 16px;"><strong>Sponsorship</strong></p>
+                        </div>
+                        <div class="grid-column span-2 mt2">
+                            <img class="mb2" src="img/pranav.jpg" alt="Pranav">
+                            <p class="small" style="font-family: Raleway; font-size:20px;">Pranav</p>
+                            <p class="small" style="color:transparent;">gap</p>
+                            <p class="small" style="font-family: Raleway; font-size: 16px;"> <strong>Outreach</strong></p>
+                        </div>
+                        <div class="grid-column span-2 mt2">
+                            <img class="mb2" src="img/gilfordResized.jpg" alt="Gilford">
+                            <p class="small" style="font-family: Raleway; font-size:20px;">Gilford</p>
+                            <p class="small" style="color:transparent;">gap</p>
+                            <p class="small" style="font-family: Raleway; font-size: 16px;"> <strong>Operations</strong></p>
+                        </div>
+
+                    </div>
+
                 </section>
 
             </div>
 
             <script>
-                function myFunction() {
-                    document.getElementById("menuToggle").checked = false;
+                var nav = document.getElementById('nav');
+                var navlinks = nav.getElementsByTagName('a');
+
+                function toggleNav() {
+                    (nav.classList.contains('active')) ? nav.classList.remove('active') : nav.classList.add('active');
                 }
 
+                document.getElementById('nav-icon').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    toggleNav();
+                });
+
+                for(var i = 0; i < navlinks.length; i++) {
+                    navlinks[i].addEventListener('click', function() {
+                        toggleNav();
+                    });
+                }
+
+
+                ////
+
+                $(function(){
+                    var overlay = $('<div id="overlay"></div>');
+                    overlay.show();
+                    overlay.appendTo(document.body);
+                    $('.popup').show();
+                    $('.close').click(function(){
+                        $('.popup').hide();
+                        overlay.appendTo(document.body).remove();
+                        return false;
+                    });
+
+
+
+
+                    $('.x').click(function(){
+                        $('.popup').hide();
+                        overlay.appendTo(document.body).remove();
+                        return false;
+                    });
+                });
             </script>
+
+            <style type="text/css">
+                #overlay {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #000;
+                    filter:alpha(opacity=70);
+                    -moz-opacity:0.7;
+                    -khtml-opacity: 0.7;
+                    opacity: 0.7;
+                    z-index: 100;
+                    display: none;
+                }
+                .cnt223 a{
+                    text-decoration: none;
+                }
+                .popup{
+                    width: 100%;
+                    margin: 0 auto;
+                    display: none;
+                    position: fixed;
+                    z-index: 101;
+                }
+                .cnt223{
+                    min-width: 650px;
+                    width: 650px;
+                    min-height: 150px;
+                    margin: 100px auto;
+                    background: #f3f3f3;
+                    position: relative;
+                    z-index: 103;
+                    padding: 15px 35px;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 5px #000;
+                }
+                .cnt223 p{
+                    clear: both;
+                    color: #555555;
+                    /* text-align: justify; */
+                    font-size: 20px;
+                    font-family: sans-serif;
+                }
+                .cnt223 p a{
+                    color: #d91900;
+                    font-weight: bold;
+                }
+                .cnt223 .x{
+                    float: right;
+                    height: 35px;
+                    left: 22px;
+                    position: relative;
+                    top: -25px;
+                    width: 34px;
+                }
+                .cnt223 .x:hover{
+                    cursor: pointer;
+                }
+            </style>
 
 
 
@@ -287,6 +454,7 @@
             </ul>
             <!--<p class="mt1 small text--gray">Made by <a href="https://www.papayatemplates.com" class="link">Papaya</a>.</p>-->
         </footer>
+
 
     </div>
 </div>
