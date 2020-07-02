@@ -32,7 +32,7 @@
             <div class='cnt223'>
                 <br>
 <!--                <h1 style="text-align: center;">REGISTER NOW</h1>-->
-                <video controls autoplay>
+                <video id="myVideo" controls autoplay>
                     <source src="img/SigmaHacks%202.0%20.mp4" type="video/mp4">
                 </video>
                 <br>
@@ -43,7 +43,7 @@
 
                 </div>
                 <div style="text-align: center;">
-                <a href='' class='close'>Close</a>
+                <a href='' onclick="myFunction()" class='close'>Close</a>
                 </div>
             </div>
         </div>
@@ -363,6 +363,7 @@
                     overlay.show();
                     overlay.appendTo(document.body);
                     $('.popup').show();
+
                     $('.close').click(function(){
                         $('.popup').hide();
                         overlay.appendTo(document.body).remove();
@@ -370,6 +371,11 @@
                     });
 
 
+                    $(overlay).click(function(){
+                        $('.popup').hide();
+                        overlay.appendTo(document.body).remove();
+                        return false;
+                    });
 
 
                     $('.x').click(function(){
@@ -377,7 +383,30 @@
                         overlay.appendTo(document.body).remove();
                         return false;
                     });
+
+
                 });
+
+                ///
+
+                var x = document.getElementById("myVideo");
+
+                function playVid() {
+                    x.play();
+                }
+
+                function pauseVid() {
+                    x.pause();
+                }
+
+                function myFunction() {
+                    pauseVid();
+                }
+
+
+
+
+
             </script>
 
             <style type="text/css">
