@@ -72,7 +72,7 @@
 
 
         <!-- Header -->
-        <header class="align--center pt4 pb2">
+        <header onclick="exit101" class="align--center pt4 pb2">
             <div class="container">
 
 
@@ -374,6 +374,7 @@
                     $(overlay).click(function(){
                         $('.popup').hide();
                         overlay.appendTo(document.body).remove();
+                        pauseVid();
                         return false;
                     });
 
@@ -402,7 +403,6 @@
                 function myFunction() {
                     pauseVid();
                 }
-
 
 
 
