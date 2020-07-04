@@ -38,11 +38,11 @@ nav ul {
 nav ul li {
     font-weight: bold;
     font-family: "Raleway";
-    font-size: 1.00 rem;
+    font-size: 1.15rem;
     color: #EFC045;
     text-transform: lowercase;
     letter-spacing: 0.5px;
-    padding: 0.55em 0;
+    padding: 0.65em 0;
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
     writing-mode: vertical-lr;
