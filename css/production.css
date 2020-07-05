@@ -1,6 +1,5 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* force push */
-/* force push */
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
@@ -39,7 +38,7 @@ nav ul {
 nav ul li {
     font-weight: bold;
     font-family: "Raleway";
-    font-size: 1.05rem;
+    font-size: 1rem;
     color: #EFC045;
     text-transform: lowercase;
     letter-spacing: 0.5px;
