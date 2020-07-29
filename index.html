@@ -1,819 +1,475 @@
-<!doctype html>
-<html lang="en-us">
-<!--comment-->
-<!--comment-->
-<!--blank comment-->
-<!--blank comment-->
-<head>
-    <link rel="shortcut icon" type="image/png" href="img/logoMain.png" />
+<!DOCTYPE html>
+<html flag="inspecccelemen">
+  <head>
     <title>SigmaHacks 2.0</title>
-    <link rel="stylesheet" href="css/production.css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
 
-</head>
-<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;left:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/2021/events" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-blue.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
-<div class="page-border">
-    <div style="background-color:#F5F5EE" >
-
-        <nav id="nav">
-            <button class="nav-icon" id="nav-icon"><span></span></button>
-            <ul>
-<!--                <li><a  href="#register">schedule</a></li>-->
-                <li><a  href="#about">about</a></li>
-<!--                <li><a  href="#schedule">schedule</a></li>-->
-                <li><a  href="#tracks">tracks</a></li>
-                <li><a  href="#sponsors">sponsors</a></li>
-                <li><a  href="#faq">faqs</a></li>
-                <li><a  href="#prizes">prizes</a></li>
-                <li><a  href="#judges">judges</a></li>
-                <li><a  href="#team">team</a></li>
-
-            </ul>
-        </nav>
-<!--        <div class='popup'>-->
-<!--            <div class='cnt223'>-->
-<!--                <br>-->
-<!--&lt;!&ndash;                <h1 style="text-align: center;">REGISTER NOW</h1>&ndash;&gt;-->
-<!--                <video id="myVideo" controls autoplay>-->
-<!--                    <source src="img/SigmaHacks%202.0%20.mp4" type="video/mp4">-->
-<!--                </video>-->
-<!--                <br>-->
-<!--                <br>-->
-<!--                <div style="text-align: center;">-->
-<!--                    <a target="_blank" href="https://go.sigmahacks.org/register2020" class="btn" style="font-family: Raleway; text-align: center;">Signup Now!</a>-->
-
-<!--                    <a target="_blank" href="https://sigmahacks-2.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover" class="btn" style="font-family: Raleway; text-align: center;">Join Devpost</a>-->
-
-<!--                </div>-->
-<!--                <div style="text-align: center;">-->
-<!--                <a href='' onclick="myFunction()" class='close'>Close</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+    <meta property="og:title" content="SigmaHacks 2.0" />
+    <meta property="og:type" content="website" />
 
 
-        <!-- <div id="menuArea" class="fixed">
-            <input type="checkbox" id="menuToggle"></input>
-            <label for="menuToggle" class="menuOpen">
-                <span class="dot"></span>
-                <div class="open"></div>
-            </label>
-            <div class="menu menuEffects">
-                <label for="menuToggle"></label>
-                <div class="menuContent">
-                    <ul>
-                        <li><a data-scroll href="#register" onclick="myFunction()">register / schedule</a></li>
-                        <li><a data-scroll href="#about" onclick="myFunction()">about</a></li>
-                        <li><a data-scroll href="#tracks" onclick="myFunction()">tracks</a></li>
-                        <li><a data-scroll href="#sponsors" onclick="myFunction()">sponsors</a></li>
-                        <li><a data-scroll href="#faq" onclick="myFunction()">faqs</a></li>
-                        <li><a data-scroll href="#team" onclick="myFunction()">team</a></li>
-                    </ul>
-                </div>
+    <link rel="shortcut icon" type="image/png" href="images/logoMain.png" />
+    <link rel="apple-touch-icon" href="touch-icon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <main>
+      <!-- Nav -->
+      <section id="nav">
+        <div class="row" id="nav-row">
+          <div class="nav-icon">
+            <a href="/">
+              <img src="images/logoMain.png" id="nav-brand" />
+            </a>
+          </div>
+          <div class="nav-links">
+            <div class="nav-link">
+              <a href="#about" onclick="">About</a>
             </div>
-        </div> -->
-
-
-        <!-- Header -->
-        <header onclick="exit101" class="align--center pt4 pb2">
-            <div class="container">
-
-
-                <h1 style="font-family: Raleway;">SigmaHacks 2.0<img style="width: 106px; length: 66px;" src="img/logoMain.png"></h1>
-
-                <p style="font-family:Raleway; font-size: 1.889em;">Presented by <a href="https://www.tensorflow.org/"><img style="width: 80px; length: 50px;" src="img/tf.png"></a></p>
-                <br>
-                <h2 style="font-family: Raleway;">A 24-hour online hackathon for anyone and everyone.</h2>
-                <br>
-                <h3 class="mb2" style="font-family: Raleway;">24 - 26 July 2020</h3>
-                <h3 class="mt2" style="font-family: Raleway;">Everywhere - Online!</h3>
+            <div class="nav-link">
+              <a href="#sponsors">Sponsors</a>
             </div>
-        </header>
-
-        <!-- Body -->
-        <main>
-            <div class="cui-embed" data-cui-uid="LguIHB" data-cui-avatar="https://images.typeform.com/images/SQh5zEMUzvNQ" data-cui-mode="pill" data-cui-pill-button-color="#01A8D9"></div><script src="https://public-assets.typeform.com/confab/embed.js" async></script>
-            <div class="container">
-
-                <!-- Info -->
-                <section class="pt2 pb3" id="register">
-                    <img class="mb3" src="img/sigmahacks2landing.png" alt="Huddle presentation">
-
-
-                </section>
-
-                <!-- CTA -->
-
-
-
-
-                <!-- Sponsors -->
-                <section class="pt3 pb3 align--center" id="about">
-                    <h3 class="mb2" style="font-family: Raleway;">About</h3>
-                    <p class="mt1 text--gray" style="font-family: Raleway;">
-                        With the world facing an
-                        unprecedented challenge during the
-                        COVID-19 pandemic, people all around
-                        the world have been affected like never
-                        before. We thank those on the
-                        frontlines, from doctors and nurses to
-                        sanitation workers, who are doing
-                        everything they can to keep the world
-                        running as smoothly as possible. We
-                        want to help in any way we can — which
-                        is why we’re calling on the creators,
-                        hackers, and innovators of the world to
-                        band together and help those in need.
-                        <br><strong>Just hack away, and let us help you
-                        bring your ideas to life!</strong>
-                    </p>
-
-                </section>
-                <section class="align--center pt3 pb3">
-                    <!--                    <a target="_blank" href="mailto:hello@sigmahacks.org?subject=I want to register" class="btn" style="font-family: Raleway;">Registration Closed</a>-->
-                    <!--                    <a target="_blank" href="https://sigmahacks-2.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover" class="btn" style="font-family: Raleway;">Join Devpost</a>-->
-                    <!--                    <a target="_blank" href="https://go.sigmahacks.org/mentor2020" class="btn" style="font-family: Raleway;">Be a Mentor!</a>-->
-                    <a target="_blank" href="img/SigmaHacksOfficialSchedule.pdf" class="btn" style="font-family: Raleway;">Schedule</a>
-                    <p class="small mt1 text--gray" style="font-family: Raleway;">Registration closed. If you had already registered, please check your email for an invitation to the Slack workspace we'll be using.</p>
-
-
-                </section>
-
-
-
-<!--                <section class="pt3 pb3 align&#45;&#45;center" id="schedule">-->
-<!--                    <img src="img/Schedule-page-001.jpg">-->
-<!--                </section>-->
-
-                <!-- Sponsors -->
-                <section class="pt3 pb3 align--center" id="tracks">
-<!--                    <h3 class="mb2" style="font-family: Raleway;">Details</h3>-->
-<!--                    <a target="_blank" href="img/Schedule.pdf" class="btn" style="font-family: Raleway;">Schedule</a>-->
-<!--                    <a target="_blank" href="img/SigmaHacks_2.0_Prizes.pdf" class="btn" style="font-family: Raleway;">Prizes</a>-->
-
-<!--                    <br>-->
-<!--                    <br>-->
-<!--                    <br>-->
-                    <h3 class="mb2" style="font-family: Raleway;">Tracks</h3>
-                    <p class="mt1 text--gray" style="font-family: Raleway;">
-                        A track is designed for hackers to solve problems in a certain industry, build using a specific technology, or tackle issues in a specific field.
-                        During the event, you must choose at least one track for your project, but you are free to choose more than one if you wish.
-                    </p>
-                    <!--                    <h4 class="mb2 text&#45;&#45;gray" style="font-family: Raleway;">Community, Healthcare, and Productivity ... More Details Coming Soon!</h4>-->
-                    <div class="grid-row" style="display: flex;flex-direction: row;justify-content: space-between;">
-
-                        <div class="grid-column span-one-third mt1"style="flex: 1 1; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                            <blockquote class="blockquote" >
-                                <p style="font-family: Raleway;"><cite>Community:</cite></p>
-                                <p style="font-family: Raleway;">With everyone isolated at home, connection and communication with your loved ones is more important and harder to get than ever before. Create projects that help people stay connected, provide resources for others, help local businesses, or control the onslaught of misinformation!</p>
-                            </blockquote>
-                        </div>
-                        <div class="grid-column span-one-third mt1"style="flex: 1 1; margin-left: .5rem; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                            <blockquote class="blockquote">
-                                <p style="font-family: Raleway;"><cite>Health:</cite></p>
-                                <p style="font-family: Raleway;">The healthcare industry and healthcare workers are absolutely vital at this time, along with maintaining personal health and fitness. For this track, hack together products that help at-risk individuals, support healthcare workers, spread information about COVID-19, or help people improve their mental and/or physical health while in isolation!</p>
-                            </blockquote>
-                        </div>
-                        <div class="grid-column span-one-third mt1" style="flex: 1 1; margin-left: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                            <blockquote class="blockquote">
-                                <p style="font-family: Raleway;"><cite>Productivity: </cite></p>
-                                <p style="font-family: Raleway;">As millions of people are stuck at home working or studying remotely, they look for help or ways to improve on this new lifestyle. Innovate and help new users get used to the digital environment, replicate previous working/learning experiences, improve work/life balance, or track assignments, tasks, and goals!</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </section>
-
-                <br>
-
-
-
-                <section class="pt3 pb3 align--center" id="sponsors">
-                    <h3 class="mb2" style="font-family: Raleway;" >Sponsors</h3>
-                    <div class="pt3 pb1 align--center" >
-                        <a target="_blank" href="https://hackplus.io/"><img style="width: 239px; height: 70px;" class="m1"src="img/hackplush2.png"></a>
-                        <a target="_blank" href="https://www.tensorflow.org/"><img style="width: 243px; height: 132px;" class="m1"src="img/tensorflowsh2.png"></a>
-                    </div>
-                    <div class="pt3 pb1 align--center">
-                        <a target="_blank" href="https://about.google/"><img style="width: 239px; height: 78px;" class="m1"src="img/googlesh2.png"></a>
-                        <a target="_blank" href="https://www.snap.com/en-US/"><img style="width: 137px; height: 137px;" class="m1"src="img/officialSnap.png"></a>
-                        <a target="_blank" href="https://www.40hrs.us/"><img style="width: 210px; height: 90px;" class="m1"src="img/40hrslogo.png"></a>
-                        <a target="_blank" href="http://hackp.ac/mlh-stickermule-hackathons"><img style="width: 273px; height: 117px;" class="m1"src="img/sticker-mule-logo-light-bg.svg"></a>
-
-                    </div>
-                    <div class="pt3 pb1 align--center" >
-                        <a target="_blank" href="https://balsamiq.com/"><img style="width: 177px; height: 51px;" class="m1"src="img/balsamiq-logo-noborder-screen.png"></a>
-                        <a target="_blank" href="https://www.linode.com/"><img style="width: 172px; height: 51px;" class="m1"src="img/linode.svg"></a>
-                        <a target="_blank" href="https://www.echoar.xyz/"><img style="width: 195px; height: 38px;" class="m1"src="img/echoAR_-_Logo_2020_-_Dark.png"></a>
-                        <a target="_blank" href="https://www.hyperxgaming.com/unitedstates/us"><img style="width: 221px; height: 65px;" class="m1"src="img/hyperx.png"></a>
-                        <a target="_blank" href="https://www.sashido.io/en/"><img style="width: 172px; height: 51px;" class="m1"src="img/sashidologo.png"></a>
-                    </div>
-                    <div class="pt3 pb1 align--center">
-                        <a target="_blank" href="https://cloudsploit.com/"><img style="width: 204px; height: 48px;" class="m1"src="img/cloudsploit_by_aqua.png"></a>
-                        <a target="_blank" href="https://www.wolframalpha.com/"><img style="width: 182px; height: 64px;" class="m1"src="img/wolframSH2.png"></a>
-                        <a target="_blank" href="https://bugsee.com/"><img style="width: 95px; height: 95px;" class="m1"src="img/bugseesh2.png"></a>
-                        <a target="_blank" href="https://www.hackathonsinternational.com/"><img style="width: 143px; height: 161px;" class="m1"src="img/Hackathons_International_Logo.png"></a>
-                        <a target="_blank" href="https://artofproblemsolving.com/"><img style="width: 136px; height: 48px;" class="m1"src="img/AOPS2SH.png"></a>
-                        <a target="_blank" href="https://magoosh.com/"><img style="width: 164px; height: 41px;" class="m1"src="img/magoosh.png"></a>
-                    </div>
-
-
-
-                    <a target="_blank" href="img/SigmaHacks2.0Prospectus.pdf" class="btnsmall" style="font-family: Raleway;">Sponsorship Prospectus</a>
-                    <p class="small mt1 text--gray" style="font-family: Raleway;">Questions? <a href="mailto:hello@sigmahacks.org" class="link"><b>Email us!</b></a></p>
-                    <!-- <img class="m1" src="img/stripe.svg" alt="Stripe" style="height: 50px;">
-                    <img class="m1" src="img/segment.svg" alt="Segment" style="height: 45px;">
-                    <img class="m1" src="img/newrelic.svg" alt="New Relic" style="height: 35px;">
-                    <img class="m1" src="img/drift.svg" alt="Drift" style="height: 50px;">
-                    <img class="m1" src="img/zopim.svg" alt="Zopim" style="height: 50px;"> -->
-
-                </section>
-
-
-                <!-- Testimonials -->
-                <section class="pt2 pb3" id="faq">
-                    <h3 class="align--center mb2" style="font-family: Raleway;">FAQs</h3>
-                    <p class="mt1 text--gray" style="font-family: Raleway; text-align: center;">
-                         All participants must follow the <a class="link" target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a>.
-                    </p>
-<br>
-                    <div class="grid-row">
-                        <div class="grid-column span-one-third mt1">
-                            <blockquote class="blockquote">
-                                <p style="font-family: Raleway;">What is a hackathon?</p>
-                                <p style="font-family: Raleway;"><cite>A hackathon is an event where people can work together to innovate, create, and implement ambitious new projects in a collaborative environment. You begin by converting your ideas into reality over the span of 24-72 hours.</cite></p>
-                            </blockquote>
-                        </div>
-                        <div class="grid-column span-one-third mt1">
-                            <blockquote class="blockquote">
-                                <p style="font-family: Raleway;">Where will this be hosted?</p>
-                                <p style="font-family: Raleway;"><cite>Sigmahacks 2.0 will be completely online! Wherever you are in the world, you can take part in the hackathon!</cite></p>
-                            </blockquote>
-                        </div>
-                        <div class="grid-column span-one-third mt1">
-                            <blockquote class="blockquote">
-                                <p style="font-family: Raleway;">Who can participate?</p>
-                                <p style="font-family: Raleway;"><cite>We are all about inclusion! We don't have any restriction on age, university affiliation, or nationality.</cite></p>
-                            </blockquote>
-                        </div>
-                        <div class="grid-column span-one-third mt1">
-                            <blockquote class="blockquote">
-                                <p style="font-family: Raleway;">Do I need a team? What if I don't have a team?</p>
-                                <p style="font-family: Raleway;"><cite>We recommend having a team of up to 4 people, but it is not necessary. If you don't already have a team when you register, we'll be hosting a virtual team-formation activity!</cite></p>
-                            </blockquote>
-                        </div>
-                        <div class="grid-column span-one-third mt1">
-                            <blockquote class="blockquote">
-                                <p style="font-family: Raleway;">What if I don't know how to code?</p>
-                                <p style="font-family: Raleway;"><cite>Not a problem at all! We will have plenty of mentors and workshops to help you learn how to code and get started.</cite></p>
-                            </blockquote>
-                        </div>
-                        <div class="grid-column span-one-third mt1">
-                            <blockquote class="blockquote">
-                                <p style="font-family: Raleway;">Are there prizes?</p>
-                                <p style="font-family: Raleway;"><cite>Yes, there will be prizes! Check back on our Devpost closer to the event to see the full list of prizes.</cite></p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </section>
-
-
-
-                <!-- Sponsors -->
-                 <section class="pt3 pb3 align--center" id="prizes">
-                   <h3 class="mb2" style="font-family: Raleway;">Prizes</h3>
-                     <p class="mt1 text--gray" style="font-family: Raleway;">
-                         In order for your hack to be eligible for a prize, you must be registered on <a class="link" target="_blank" href="https://sigmahacks-2.devpost.com/">Devpost</a> and through our <a class="link" target="_blank" href="https://go.sigmahacks.org/register2020">Signup Form</a>.
-                     </p>
-                     <div class="grid-row" style="display: flex;flex-direction: row;justify-content: space-between; text-align: center;">
-
-<!--                     <h4 class="mb2" style="font-family: Raleway;">General Prizes</h4>-->
-
-                     <div class="grid-column span mt1"style="flex: 1 1; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                         <blockquote class="blockquote" >
-                             <h4 style="font-family: Raleway;">Best Overall Hack</h4>
-                             <p style="font-family: Raleway;">US $200 to each person in the winning team, matched by
-                                 SigmaHacks with a donation to a public health agency to support the
-                                 fight against COVID-19</p>
-                             <p style="font-family: Raleway;">+</p>
-                             <p style="font-family: Raleway">1 year of Wolfram|One Personal Edition </p>
-                             <p style="font-family: Raleway;">+</p>
-                             <p style="font-family: Raleway">1 year of Wolfram|Alpha Pro to each person.</p>
-                         </blockquote>
-                     </div>
-                     </div>
-                     <br>
-                     <h4 style="font-family: Raleway; text-align: center;">Track-Specific Prizes</h4>
-
-                     <div class="grid-row" style="display: flex;flex-direction: row;justify-content: space-between;">
-                     <div class="grid-column span-one-third mt1"style="flex: 1 1; margin-left: .5rem; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                         <blockquote class="blockquote">
-                             <h4 style="font-family: Raleway;">Best Community Hack</h4>
-                             <p style="font-family: Raleway;">US $100 to each
-                                 person in the winning
-                                 team, matched by
-                                 SigmaHacks with a
-                                 donation to a public
-                                 health agency to
-                                 support the fight
-                                 against COVID-19.</p>
-                             <p style="font-family: Raleway;">+</p>
-                             <p style="font-family: Raleway;">1 year of
-                                 Wolfram|One
-                                 Personal Edition and
-                                 1 year of
-                                 Wolfram|Alpha Pro to
-                                 each person.
-                                </p>
-                             <p style="font-family: Raleway;">+</p>
-                             <p style="font-family: Raleway;">$25 Coupon for Art of
-                                 Problem Solving
-                                 Products to each
-                                 person.
-                             </p>
-                         </blockquote>
-                     </div>
-
-                      <div class="grid-column span-one-third mt1" style="flex: 1 1; margin-left: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                         <blockquote class="blockquote">
-                             <h4 style="font-family: Raleway;">Best Health Hack</h4>
-                             <p style="font-family: Raleway;">US $100 to each
-                                 person in the winning
-                                 team, matched by
-                                 SigmaHacks with a
-                                 donation to a public
-                                 health agency to
-                                 support the fight
-                                 against COVID-19.</p>
-                             <p style="font-family: Raleway;">+</p>
-                             <p style="font-family: Raleway;">1 year of
-                                 Wolfram|One
-                                 Personal Edition and
-                                 1 year of
-                                 Wolfram|Alpha Pro to
-                                 each person.
-                             </p>
-                             <p style="font-family: Raleway;">+</p>
-                             <p style="font-family: Raleway;">$250 of Bugsee
-                                 credits to each
-                                 person.
-                             </p>
-                         </blockquote>
-                     </div>
-
-                         <div class="grid-column span-one-third mt1" style="flex: 1 1; margin-left: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                             <blockquote class="blockquote">
-                                 <h4 style="font-family: Raleway;">Best Productivity Hack</h4>
-                                 <p style="font-family: Raleway;">US $100 to each
-                                     person in the winning
-                                     team, matched by
-                                     SigmaHacks with a
-                                     donation to a public
-                                     health agency to
-                                     support the fight
-                                     against COVID-19.</p>
-                                 <p style="font-family: Raleway;">+</p>
-                                 <p style="font-family: Raleway;">1 year of
-                                     Wolfram|One
-                                     Personal Edition and
-                                     1 year of
-                                     Wolfram|Alpha Pro to
-                                     each person.
-                                 </p>
-                                 <p style="font-family: Raleway;">+</p>
-                                 <p style="font-family: Raleway;">Coupon for 4 months
-                                     use of Cloudsploit to
-                                     each person.
-                                 </p>                        </blockquote>
-                         </div>
-                     </div>
-                     <br>
-                     <h4 style="font-family: Raleway; text-align: center;">Runner-Up Prizes</h4>
-
-                     <div class="grid-row" style="display: flex;flex-direction: row;justify-content: space-between;">
-                         <div class="grid-column span-one-third mt1"style="flex: 1 1; margin-left: .5rem; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                             <blockquote class="blockquote">
-                                 <h4 style="font-family: Raleway;">Runner Up Community Hack</h4>
-                                 <p style="font-family: Raleway;">US $50, 1 year of Wolfram|One Personal Edition, and 1 year of Wolfram|Alpha
-                                     Pro to each person in the winning team.</p>
-                             </blockquote>
-                         </div>
-
-                         <div class="grid-column span-one-third mt1" style="flex: 1 1; margin-left: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                             <blockquote class="blockquote">
-                                 <h4 style="font-family: Raleway;">Runner Up Health Hack</h4>
-                                 <p style="font-family: Raleway;">US $50, 1 year of Wolfram|One Personal Edition, and 1 year of Wolfram|Alpha
-                                     Pro to each person in the winning team.</p>
-                             </blockquote>
-                         </div>
-
-                         <div class="grid-column span-one-third mt1" style="flex: 1 1; margin-left: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                             <blockquote class="blockquote">
-                                 <h4 style="font-family: Raleway;">Runner Up Productivity Hack</h4>
-                                 <p style="font-family: Raleway;">US $50, 1 year of Wolfram|One Personal Edition, and 1 year of Wolfram|Alpha
-                                     Pro to each person in the winning team.</p></blockquote>
-                         </div>
-                     </div>
-<br>
-                     <h4 style="font-family: Raleway; text-align: center;">MLH Prizes</h4>
-
-                     <div class="grid-row" style="display: flex;flex-direction: row;justify-content: space-between;">
-                         <div class="grid-column span mt1"style="flex: 1 1; margin-left: .5rem; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                             <blockquote class="blockquote">
-                                 <h4 style="font-family: Raleway;">Best Use of Google Cloud</h4>
-                                 <p style="font-family: Raleway;">
-                                     Build your hackathon project with a suite of secure storage, powerful compute, and integrated data analytics products provided by Google Cloud. See full list of products here: <a class="link" href="https://cloud.google.com/" target="_blank">g.co/cloud</a>. Each winning team member will receive a Google Home Mini.
-                                 </p>
-                             </blockquote>
-                         </div>
-
-                         <div class="grid-column span-one-third mt1"style="flex: 1 1; margin-left: .5rem; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                             <blockquote class="blockquote">
-                                 <h4 style="font-family: Raleway;">Most Creative Radar.io Hack</h4>
-                                 <p style="font-family: Raleway;">
-                                     Build the most creative hack using Radar’s SDKs and APIs for geofencing, location search, and geocoding. Some ideas for location-aware projects include a delivery tracker, campus building locator, and a Find my Friends clone. Winning team members will be eligible to win a Tile Sticker Smart Tracker and a chance to be featured by <a class="link" href="https://radar.io/">Radar</a>.                                 </p>
-                             </blockquote>
-                         </div>
-
-                         <div class="grid-column span-one-third mt1"style="flex: 1 1; margin-left: .5rem; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                             <blockquote class="blockquote">
-                                 <h4 style="font-family: Raleway;">Best UiPath Automation Hack</h4>
-                                 <p style="font-family: Raleway;">
-                                     Build an automation hack using <a target="_blank" href="https://www.uipath.com/" class="link">UiPath</a>! Each winning team member will receive a UiPath Branded Backpack.                                 </p>
-                             </blockquote>
-                         </div>
-
-                         <div class="grid-column span-one-third mt1"style="flex: 1 1; margin-left: .5rem; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                             <blockquote class="blockquote">
-                                 <h4 style="font-family: Raleway;">Best Use of Domain.com</h4>
-                                 <p style="font-family: Raleway;">
-                                     <a href="https://www.domain.com/" class="link" target="_blank">Domain.com</a> provides all the domain services you need from registration to hosting to SSL certificates and beyond. Each hacker will receive a FREE domain name and year of domain privacy from Domain.com for their project this weekend! Each winning team member will receive a Domain.com Branded Backpack.</p>
-                             </blockquote>
-                         </div>
-                     </div>
-                     <br>
-                     <h4 style="font-family: Raleway; text-align: center;">Sponsor Prize</h4>
-
-                     <div class="grid-row" style="display: flex;flex-direction: row;justify-content: space-between; text-align: center;">
-
-                         <div class="grid-column span mt1"style="flex: 1 1; margin-right: .5rem; border: 2px solid #454547; border-radius: 10px; padding: 40px 32px;">
-                             <blockquote class="blockquote" >
-                                 <h4 style="font-family: Raleway;">Best Use of echoAR</h4>
-                                 <p style="font-family: Raleway;">US $50 Amazon gift card to the winning team.</p>
-                                 <p style="font-family: Raleway;">+</p>
-                                 <p style="font-family: Raleway;">1 month of Business Tier access to echoAR for each person.</p>
-                                 <p style="font-family: Raleway;">+</p>
-                                 <p style="font-family: Raleway;">Featured in echoAR's newsletter to investors and the AR/VR community.</p>
-                             </blockquote>
-                         </div>
-                     </div>
-
-
-
-               </section>
-
-
-                <section class="pt3 pb3 align--center" id="judges">
-                    <h3 class="mb1"  style="font-family: Raleway;">The Judges</h3>
-                    <div class="grid-row" style="display: flex; justify-content: center; align-items: center;">
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/sharon.jpeg" alt="Sharon Mandell" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px">Sharon Mandell</p>
-                            <p class="small" style="color:transparent;">‎‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"><strong>CIO at Juniper Networks</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/melanie.jpeg" alt="Melanie Ensign" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px">Melanie Ensign</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"><strong>CEO & Founder at Discernible Inc.</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/aparna2.jpg" alt="Aparna Sharma" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px">Aparna Sharma</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>Worldwide VP of Sales & GTM at IBM</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/ronn.jpeg" alt="Ronn Brashear" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px">Ronn Brashear</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"><strong>VP of Engineering at Hewlett-Packard</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/jon.jpeg" alt="Jon Mittelhauser" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Jon Mittelhauser</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>VP of Technical Architecture at Oracle</strong></p>
-                        </div>
-
-
-                    </div>
-                    <br>
-                    <br>
-                    <div class="grid-row" style="display: flex; justify-content: center; align-items: center;">
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/brian2.jpeg" alt="Brian Leong" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Brian Leong</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>Head of Silicon Valley Innovation Center at Wipro</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/gopal.jpeg" alt="Gopal Kumarappan" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Gopal Kumarappan</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>Head of Engineering, Document Cloud Services at Adobe</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/chandra2.jpeg" alt="Chandra Sreeram" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Chandra Sreeram</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>Head of Marketing Analytics & Operations at Gigamon</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/michael.jpeg" alt="Michael Peachey" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Michael Peachey</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>VP of User Experience at RingCentral</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/biplab.jpeg" alt="Biplab Adhya" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Biplab Adhya</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>Managing Partner at Wipro Ventures</strong></p>
-                        </div>
-
-
-                    </div>
-
-                    <br>
-                    <br>
-
-                    <div class="grid-row" style="display: flex; justify-content: center; align-items: center;">
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/geoff2.jpg" alt="Geoff Jue" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Geoff Jue</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>VP & Head of Utilities for the Americas at Wipro</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/anand.jpeg" alt="Anand Madhavan" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px">Anand Madhavan</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"><strong>VP of AI Platform at [24]7.ai</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/asquith.jpg" alt="Asquith Bailey" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Asquith Bailey</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>Sr. Director of Engineering at Venafi</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/jay3.jpg" alt="Jay Cromwell" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Jay Cromwell</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>Sr. Director of User Experience at TIBCO</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/ramnath.jpeg" alt="Ramnath Rao" style="width: 125px; height: 125px;">
-                            <p class="small" style="font-family: Raleway; font-size:16px;">Ramnath Rao</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 13px;"> <strong>Director of Engineering at Cisco</strong></p>
-                        </div>
-
-
-                    </div>
-
-                </section>
-
-<hr>
-                <br>
-
-
-                <!-- Presenters -->
-                <section class="pt3 pb3 align--center" id="team">
-                    <h3 class="mb1"  style="font-family: Raleway;">The Team</h3>
-                    <div class="grid-row">
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/mukundsh2.jpeg" alt="Mukund Krishnakumar">
-                            <p class="small" style="font-family: Raleway; font-size:20px">Mukund </p>
-                            <p class="small" style="color:transparent;">‎‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 16px;"><strong>Lead</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/vaibhav.jpg" alt="Vaibhav Karanam">
-                            <p class="small" style="font-family: Raleway; font-size:20px">Vaibhav</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 16px;"><strong>Technology</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/bhuvana.jpg" alt="Bhuvana Betini">
-                            <p class="small" style="font-family: Raleway; font-size:20px">Bhuvana</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 16px;"> <strong>Sponsorship</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/niksh2.jpg" alt="Nikunj Parasar">
-                            <p class="small" style="font-family: Raleway; font-size:20px">Nikunj</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 16px;"><strong>Sponsorship</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/ruchash2.jpg" alt="Rucha Deo">
-                            <p class="small" style="font-family: Raleway; font-size:20px;">Rucha</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 16px;"> <strong>Outreach</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/venkish2.jpg" alt="Venki Sivaram">
-                            <p class="small" style="font-family: Raleway; font-size:20px;">Venki</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 16px;"> <strong>Operations</strong></p>
-                        </div>
-
-                    </div>
-                    <br>
-                    <br>
-                    <div class="grid-row" style="display: flex; justify-content: center; align-items: center;">
-
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/hanna.jpg" alt="Hanna">
-                            <p class="small" style="font-family: Raleway; font-size:20px">Hanna</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 16px;"><strong>Sponsorship</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/pranav.jpg" alt="Pranav">
-                            <p class="small" style="font-family: Raleway; font-size:20px;">Pranav</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 16px;"> <strong>Outreach</strong></p>
-                        </div>
-                        <div class="grid-column span-2 mt2">
-                            <img class="mb2" src="img/gilfordResized.jpg" alt="Gilford">
-                            <p class="small" style="font-family: Raleway; font-size:20px;">Gilford</p>
-                            <p class="small" style="color:transparent;">‎</p>
-                            <p class="small" style="font-family: Raleway; font-size: 16px;"> <strong>Operations</strong></p>
-                        </div>
-
-                    </div>
-
-                </section>
-
-
+            <div class="nav-link">
+              <a href="#judges">Judges</a>
+            </div>
+            <div class="nav-link">
+              <a href="#team">Team</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Top -->
+      <section id="top">
+        <div id="top-canvas">
+          <div id="overlay"></div>
+
+        </div>
+        <div class="row" id="logo-main">
+          <img style="height: 550px; width: 160px;" src="images/logoMain.png" />
+          <h1 class="head-text">SigmaHacks 2.0</h1>
+        </div>
+        <div class="row" id="top-text">
+          <div class="post-stats">
+            <h4>417</h4>
+            <p>ATTENDEES</p>
+          </div>
+          <div class="post-stats">
+            <h4>36</h4>
+            <p>MENTORS</p>
+          </div>
+          <div class="post-stats">
+            <h4>64</h4>
+            <p>SUBMISSIONS</p>
+          </div>
+          <div id="info-right">
+            <a
+              href="https://sigmahacks-2.devpost.com/submissions"
+              target="_blank"
+              id="view-submissions"
+            >
+              <span>VIEW SUBMISSIONS</span>
+            </a>
+            <a onclick="location.href = 'https://www.youtube.com/channel/UCiKH3FnRV05I4IQRiMHUj2Q';" target="_blank" id="view-photos"><span>YOUTUBE CHANNEL</span></a>
+          </div>
+        </div>
+
+      </section>
+
+
+
+      <!-- About -->
+      <section id="about">
+        <div class="row">
+          <div>
+            <h2>A 24-hour online hackathon for anyone and everyone.</h2>
+            <p>
+              With the world facing an unprecedented challenge during the COVID-19 pandemic, people all around the world have been affected like never before.
+            </p>
+            <p>
+              We thank those on the frontlines, from doctors and nurses to sanitation workers, who are doing everything they can to keep the world running as smoothly as possible. We want to help in any way we can — which is why we’re calling on the creators, hackers, and innovators of the world to band together and help those in need.
+              Just hack away, and let us help you bring your ideas to life!
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="sponsors">
+        <div class="row">
+          <div>
+            <h2 id="partners-title">Partners</h2>
+
+            <div class="row columns-tiny">
+              <a target="_blank" href="https://hackplus.io/">
+                <img
+                  src="images/sponsors/hackplus.png"
+                  alt="Hack+"
+                  title="Hack+"
+                />
+              </a>
+              <a target="_blank" href="https://www.tensorflow.org/">
+                <img
+                     src="images/sponsors/tensorflow.png"
+                     alt="Tensorflow"
+                     title="Tensorflow"
+                />
+              </a>
 
             </div>
+            <h2>Sponsors</h2>
+            <div class="row columns-tiny">
+              <a target="_blank" href="https://about.google/">
+                <img
+                        src="images/sponsors/google.png"
+                        alt="Google"
+                        title="Google"
+                />
+              </a>
+              <a target="_blank" href="https://www.snap.com/en-US/">
+                <img
+                  src="images/sponsors/snap.png"
+                  alt="Snap"
+                  title="Snap"
+                />
+              </a>
+              <a
+                      target="_blank"
+                      href="https://www.40hrs.us/"
+              >
+                <img
+                        src="images/sponsors/40hrs.png"
+                        alt="40 Hours"
+                        title="40 Hours"
+                />
+              </a>
+            </div>
 
-            <script>
-                var nav = document.getElementById('nav');
-                var navlinks = nav.getElementsByTagName('a');
+            <div class="row columns-tinier">
 
-                function toggleNav() {
-                    (nav.classList.contains('active')) ? nav.classList.remove('active') : nav.classList.add('active');
-                }
+              <a target="_blank" href="https://www.stickermule.com/">
+                <img src="images/sponsors/stickermule.svg" alt="Tile" title="Tile" />
+              </a>
 
-                document.getElementById('nav-icon').addEventListener('click', function(e) {
-                    e.preventDefault();
-                    toggleNav();
-                });
+              <a target="_blank" href="https://balsamiq.com/">
+                <img
+                        src="images/sponsors/balsamiq.png"
+                        alt="Stickermule"
+                        title="Stickermule"
+                />
+              </a>
 
-                for(var i = 0; i < navlinks.length; i++) {
-                    navlinks[i].addEventListener('click', function() {
-                        toggleNav();
-                    });
-                }
+              <a target="_blank" href="https://www.linode.com/">
+                <img
+                        src="images/sponsors/linode.svg"
+                        alt="Linode"
+                        title="Linode"
+                />
+              </a>
+            </div>
 
+            <div class="row columns-tinier">
+              <a
+                target="_blank"
+                href="https://www.echoar.xyz/"
+              >
+                <img
+                  src="images/sponsors/echoAR.png"
+                  alt="echoAR"
+                  title="echoAR"
+                />
+              </a>
+              <a target="_blank" href="https://www.hyperxgaming.com/unitedstates/us">
+                <img
+                  src="images/sponsors/hyperx.png"
+                  alt="Hyperx"
+                  title="Hyperx"
+                />
+              </a>
+              <a target="_blank" href="https://www.sashido.io/en/">
+                <img
+                        src="images/sponsors/sashido.png"
+                        alt="Sashido"
+                        title="Sashido"
+                />
+              </a>
+            </div>
+            <div class="row columns-tinier">
 
-                ////
-
-                $(function(){
-                    var overlay = $('<div id="overlay"></div>');
-                    overlay.show();
-                    overlay.appendTo(document.body);
-                    $('.popup').show();
-
-                    $('.close').click(function(){
-                        $('.popup').hide();
-                        overlay.appendTo(document.body).remove();
-                        return false;
-                    });
-
-
-                    $(overlay).click(function(){
-                        $('.popup').hide();
-                        overlay.appendTo(document.body).remove();
-                        pauseVid();
-                        return false;
-                    });
-
-
-                    $('.x').click(function(){
-                        $('.popup').hide();
-                        overlay.appendTo(document.body).remove();
-                        return false;
-                    });
-
-
-                });
-
-                ///
-
-                var x = document.getElementById("myVideo");
-
-                function playVid() {
-                    x.play();
-                }
-
-                function pauseVid() {
-                    x.pause();
-                }
-
-                function myFunction() {
-                    pauseVid();
-                }
-
-
-
-
-            </script>
-
-            <style type="text/css">
-                /*#overlay {*/
-                /*    position: fixed;*/
-                /*    top: 0;*/
-                /*    left: 0;*/
-                /*    width: 100%;*/
-                /*    height: 100%;*/
-                /*    background-color: #000;*/
-                /*    filter:alpha(opacity=70);*/
-                /*    -moz-opacity:0.7;*/
-                /*    -khtml-opacity: 0.7;*/
-                /*    opacity: 0.7;*/
-                /*    z-index: 100;*/
-                /*    display: none;*/
-                /*}*/
-                /*.cnt223 a{*/
-                /*    text-decoration: none;*/
-                /*}*/
-                /*.popup{*/
-                /*    width: 100%;*/
-                /*    margin: 0 auto;*/
-                /*    display: none;*/
-                /*    position: fixed;*/
-                /*    z-index: 101;*/
-                /*}*/
-                /*.cnt223{*/
-                /*    min-width: 675px;*/
-                /*    width: 675px;*/
-                /*    min-height: 150px;*/
-                /*    margin: 40px auto;*/
-                /*    background: #f3f3f3;*/
-                /*    position: relative;*/
-                /*    z-index: 103;*/
-                /*    padding: 15px 35px;*/
-                /*    border-radius: 5px;*/
-                /*    box-shadow: 0 2px 5px #000;*/
-                /*}*/
-                /*.cnt223 p{*/
-                /*    clear: both;*/
-                /*    color: #555555;*/
-                /*    !* text-align: justify; *!*/
-                /*    font-size: 20px;*/
-                /*    font-family: sans-serif;*/
-                /*}*/
-                /*.cnt223 p a{*/
-                /*    color: #d91900;*/
-                /*    font-weight: bold;*/
-                /*}*/
-                /*.cnt223 .x{*/
-                /*    float: right;*/
-                /*    height: 35px;*/
-                /*    left: 22px;*/
-                /*    position: relative;*/
-                /*    top: -25px;*/
-                /*    width: 34px;*/
-                /*}*/
-                /*.cnt223 .x:hover{*/
-                /*    cursor: pointer;*/
-                /*}*/
-
-            </style>
+              <a target="_blank" href="https://cloudsploit.com/">
+                <img
+                  src="images/sponsors/cloudsploit.png"
+                  alt="Cloudsploit"
+                  title="Cloudsploit"
+                />
+              </a>
+              <a target="_blank" href="https://www.wolframalpha.com/">
+                <img
+                        src="images/sponsors/wolfram.png"
+                        alt="Wolfram"
+                        title="Wolfram"
+                />
+              </a>
+              <a target="_blank" href="https://www.bugsee.com/">
+                <img
+                        src="images/sponsors/bugsee.png"
+                        alt="Bugsee"
+                        title="Bugsee"
+                />
+              </a>
+<!--              <a target="_blank" href="https://www.hackathonsinternational.com/">-->
+<!--                <img-->
+<!--                        src="images/sponsors/hackathonsinternational.png"-->
+<!--                        alt="Hackathons International"-->
+<!--                        title="Hackathons International"-->
+<!--                />-->
+<!--              </a>-->
+              <a target="_blank" href="https://artofproblemsolving.com/">
+                <img
+                        src="images/sponsors/aops.png"
+                        alt="AOPS"
+                        title="AOPS"
+                />
+              </a>
+            </div>
 
 
-        </main>
-
-        <!-- Footer -->
-        <footer class="mt1 pb1 align--center" style="font-family: Raleway;">We'd love to hear from you! Contact Us:
-            <ul class="no-bullets list--inline mb0">
-                <li class="m1 block-on-mobile"><a href="mailto:hello@sigmahacks.org" class="link" style="font-family: Raleway;">email</a></li>
-                <li class="m1 block-on-mobile"><a href="https://youtu.be/Gk_uJMUgPPo" class="link" style="font-family: Raleway;">youtube</a></li>
-                <li class="m1 block-on-mobile"><a href="https://www.facebook.com/sigmahacks" class="link" style="font-family: Raleway;">facebook</a></li>
-                <li class="m1 block-on-mobile"><a href="https://www.instagram.com/sigmahacks" class="link" style="font-family: Raleway;">instagram</a></li>
-                <li class="m1 block-on-mobile"><a href="https://www.linkedin.com/company/sigmahacks" class="link" style="font-family: Raleway;">linkedin</a></li>
-            </ul>
-            <!--<p class="mt1 small text--gray">Made by <a href="https://www.papayatemplates.com" class="link">Papaya</a>.</p>-->
-        </footer>
+          </div>
 
 
-    </div>
-</div>
+        </div>
+      </section>
+
+      <!-- Judges -->
+      <section id="judges">
+        <div class="row">
+          <div>
+            <h2>Judges</h2>
+            <div class="judges-wrapper row columns-tiny">
+              <figure>
+                <img src="images/judges/sharon.jpeg" />
+                <h4>Sharon Mandell</h4>
+                <figcaption>Chief Information Officer</figcaption>
+                <figcaption>Juniper Networks</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/melanie.jpeg" />
+                <h4>Melanie Ensign</h4>
+                <figcaption>Chief Executive Officer</figcaption>
+                <figcaption>Discernible Inc.</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/aparna.jpeg" />
+                <h4>Aparna Sharma</h4>
+                <figcaption>
+                  VP of Sales & GTM
+                </figcaption>
+                <figcaption>IBM</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/ronn.jpeg" />
+                <h4>Ronn Brashear</h4>
+                <figcaption>VP of Engineering</figcaption>
+                <figcaption>Hewlett-Packard</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/jon.jpeg" />
+                <h4>Jon Mittelhauser</h4>
+                <figcaption>VP of Technical Architecture</figcaption>
+                <figcaption>Oracle</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/brian.jpeg" />
+                <h4>Brian Leong</h4>
+                <figcaption>Head of Silicon Valley Innovation Center</figcaption>
+                <figcaption>Wipro</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/gopal.jpeg" />
+                <h4>Gopal Kumarappan</h4>
+                <figcaption>Head of Engineering, Document Cloud Services</figcaption>
+                <figcaption>Adobe</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/geoff.jpeg" />
+                <h4>Geoff Jue</h4>
+                <figcaption>VP of Utilities for the Americas</figcaption>
+                <figcaption>Wipro</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/biplab.jpeg" />
+                <h4>Biplab Adhya</h4>
+                <figcaption>Managing Partner</figcaption>
+                <figcaption>Wipro</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/chandra.jpeg" />
+                <h4>Chandra Sreeram</h4>
+                <figcaption>Head of Marketing Analytics & Operations</figcaption>
+                <figcaption>Gigamon</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/anand.jpeg" />
+                <h4>Anand Madhavan</h4>
+                <figcaption>VP of AI Platform</figcaption>
+                <figcaption>[24]7.ai</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/asquith.jpeg" />
+                <h4>Asquith Bailey</h4>
+                <figcaption>Sr. Director of Engineering</figcaption>
+                <figcaption>Venafi</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/jay.jpeg" />
+                <h4>Jay Cromwell</h4>
+                <figcaption>Sr. Director of User Experience</figcaption>
+                <figcaption>TIBCO Software Inc.</figcaption>
+              </figure>
+              <figure>
+                <img src="images/judges/ramnath.jpeg" />
+                <h4>Ramnath Rao</h4>
+                <figcaption>Director of Engineering, Product Strategy & Cloud</figcaption>
+                <figcaption>Cisco Systems</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team -->
+      <section id="team">
+        <div class="row">
+          <div>
+            <h2 style="color: #666666;">Organizing Team</h2>
+            <div class="team-wrapper row columns-small">
+              <figure>
+                <img src="images/team/mukund.jpeg" />
+                <h4 style="color: #666666;">Mukund</h4>
+                <figcaption style="color: #666666;">Lead</figcaption>
+              </figure>
+              <figure>
+                <img src="images/team/vaibhav.jpeg" />
+                <h4 style="color: #666666;">Vaibhav</h4>
+                <figcaption style="color: #666666;">Technology</figcaption>
+              </figure>
+              <figure>
+                <img src="images/team/bhuvana.jpeg" />
+                <h4 style="color: #666666;">Bhuvana</h4>
+                <figcaption style="color: #666666;">Sponsorship</figcaption>
+              </figure>
+              <figure>
+                <img src="images/team/nikunj.jpeg" />
+                <h4 style="color: #666666;">Nikunj</h4>
+                <figcaption style="color: #666666;">Sponsorship</figcaption>
+              </figure>
+              <figure>
+                <img src="images/team/rucha.jpeg" />
+                <h4 style="color: #666666;">Rucha</h4>
+                <figcaption style="color: #666666;">Outreach</figcaption>
+              </figure>
+              <figure>
+                <img src="images/team/pranav.jpeg" />
+                <h4 style="color: #666666;">Pranav</h4>
+                <figcaption style="color: #666666;">Outreach</figcaption>
+              </figure>
+              <figure>
+                <img src="images/team/gilford.jpeg" />
+                <h4 style="color: #666666;">Gilford</h4>
+                <figcaption style="color: #666666;">Operations</figcaption>
+              </figure>
+              <figure>
+                <img src="images/team/hanna.jpeg" />
+                <h4 style="color: #666666;">Hanna</h4>
+                <figcaption style="color: #666666;">Sponsorship</figcaption>
+              </figure>
+              <figure>
+                <img src="images/team/venki.jpeg" />
+                <h4 style="color: #666666;">Venki</h4>
+                <figcaption style="color: #666666;">Operations</figcaption>
+              </figure>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Past Year Sites -->
+    </main>
+    <footer>
+      <div class="row">
+        <div class="row-inner">
+          <div class="footer-wrapper row">
+            <div class="footer-sect">
+              <div class="footer-icon">
+                <img
+                  src="images/logoMain.png"
+                  id="footer-brand"
+                />
+              </div>
+            </div>
+            <div class="footer-sect">
+              <div class="link-group-head">Past Sites</div>
+              <a target="_blank" href="http://2019.sigmahacks.org/" class="link-group-item">2019</a>
+              <a href="/2018" class="link-group-item">2020</a>
+            </div>
+            <div class="footer-sect">
+              <div class="link-group-head">Contact Us</div>
+              <a target="_blank"
+
+                 href="https://www.facebook.com/sigmahacks/"
+                class="link-group-item"
+              >
+                Facebook
+              </a>
+              <a target="_blank"
+                href="https://www.youtube.com/channel/UCiKH3FnRV05I4IQRiMHUj2Q"
+                class="link-group-item"
+              >
+                Youtube
+              </a>
+              <a target="_blank"
+                href="https://www.instagram.com/sigmahacks/"
+                class="link-group-item"
+              >
+                Instagram
+              </a>
+              <a
+                 href="mailto:hello@sigmahacks.org"
+                 class="link-group-item"
+              >
+                Email
+              </a>
+            </div>
+            <div class="footer-sect">
+              <div class="link-group-head">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <p class="text-tiny" id="copyText">
+          Copyright © 2020 SigmaHacks. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-white.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/top.js"></script>
+    <script src="js/schedules.js"></script>
+    <script src="js/dynamicSchedule.js"></script>
+  </body>
 </html>
