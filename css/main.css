@@ -384,9 +384,11 @@ div#overlay2 {
 h1.head-text {
     font-size: 13vh;
 }
+/*
 h1.head-text1 {
     font-size: 7vh;
 }
+*/
 
 #top-text {
     justify-content: space-between;
