@@ -1,0 +1,10 @@
+<svg class="social-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path class="social-icon-fill" fill-rule="evenodd" clip-rule="evenodd" d="M12.955 22.001V11.978H16.377L16.866 8.06698H12.955V5.62298C12.955 4.52298 13.322 3.66798 14.91 3.66798H16.988V0.122977C16.5 0.122977 15.277 0.000976562 13.933 0.000976562C11 0.000976562 8.922 1.83398 8.922 5.13398V8.06698H5.5V11.978H8.922V22.001H12.955Z" fill="#434343"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="21.998" height="21.999" fill="white"/>
+</clipPath>
+</defs>
+</svg>
