@@ -248,6 +248,10 @@ p {
   background: #cf4917;
 }
 
+.siteHeader--prizes {
+  background: #2f3814;
+}
+
 .siteHeader--team {
   background: #383938;
 }
@@ -588,8 +592,9 @@ p {
 
 .FAQ {
   background-color: #d96d45;
-  
 }
+
+
 
 .sponsorship {
   background-color: #5791a3;
