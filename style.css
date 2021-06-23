@@ -652,6 +652,12 @@ p {
   color: #bababa;
 }
 
+.para--newsletter-judges {
+  color: #383938;
+  font-size: 14px;
+}
+
+
 .form-input-text {
   width: 404px;
   height: 48px;
@@ -1233,8 +1239,14 @@ footer {
 /********************/
 
 .speakers {
-  background: #747474;
+  background: #494949;
 }
+
+.judges {
+  background: #f4f4f9;
+
+}
+
 
 .speakersContainer {
   width: 798px;
@@ -1254,6 +1266,11 @@ footer {
   height: 189px;
 }
 
+.judge-headshot {
+  width: 151px;
+  height: 151px;
+}
+
 .speaker-name {
   text-align: center;
   font-style: normal;
@@ -1261,6 +1278,17 @@ footer {
   font-size: 20px;
   line-height: normal;
   color: #f4f4f9;
+  padding-top: 10px;
+}
+
+.judge-name {
+  white-space: nowrap;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: normal;
+  color:#383938;
   padding-top: 10px;
 }
 
